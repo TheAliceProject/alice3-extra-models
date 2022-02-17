@@ -1,0 +1,182 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -5.761284,
+          -9.899488,
+          -0.015247569
+        ],
+        "max": [
+          3.9960697,
+          2.44E-6,
+          -0.00524757
+        ]
+      }
+    },
+    {
+      "name": "B2",
+      "bounds": {
+        "min": [
+          1.9621465,
+          0.006524251,
+          -2.7261996
+        ],
+        "max": [
+          1.9621465,
+          0.006524251,
+          -2.7261996
+        ]
+      }
+    },
+    {
+      "name": "B3",
+      "bounds": {
+        "min": [
+          1.9992433,
+          0.019908078,
+          -0.015044055
+        ],
+        "max": [
+          1.9992433,
+          0.019908078,
+          -0.015044055
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -5.761284,
+      0.00524757,
+      -9.899488
+    ],
+    "max": [
+      3.9960697,
+      0.0152491825,
+      2.442484E-6
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadTurnLeft45",
+      "idToResourceMap": {
+        "0": "RoadTurnLeft45-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadTurnLeft45",
+      "structure": "RoadTurnLeft45",
+      "textureSet": "RoadTurnLeft45",
+      "icon": "RoadTurnLeft45.png"
+    }
+  ],
+  "description": {
+    "name": "RoadTurnLeft45",
+    "icon": "RoadTurnLeft45_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.0.2-rc.1+build.local",
+    "created": "2021-07-29T11:57:10-0400EDT",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadTurnLeft45",
+      "format": "a3r",
+      "file": "roadturnleft45.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadTurnLeft45-textureReference",
+      "format": "a3t",
+      "file": "roadturnleft45.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "3e64b185-adc3-4d50-ae84-1a31e1cc04e7",
+      "height": 99.0,
+      "width": 160.0,
+      "name": "RoadTurnLeft45.png",
+      "format": "image/png",
+      "file": "RoadTurnLeft45.png",
+      "type": "image"
+    },
+    {
+      "uuid": "0d098756-4923-47f1-97d0-7b6bf0d5dc24",
+      "height": 99.0,
+      "width": 160.0,
+      "name": "RoadTurnLeft45_cls.png",
+      "format": "image/png",
+      "file": "RoadTurnLeft45_cls.png",
+      "type": "image"
+    }
+  ]
+}

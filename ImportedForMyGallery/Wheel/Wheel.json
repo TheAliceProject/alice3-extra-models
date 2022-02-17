@@ -1,0 +1,132 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -1.2937274,
+          -0.35560688,
+          -0.02696704
+        ],
+        "max": [
+          0.012145559,
+          0.3558203,
+          0.23403901
+        ]
+      }
+    },
+    {
+      "name": "wheel",
+      "bounds": {
+        "min": [
+          -0.02265044,
+          -0.017162584,
+          -0.2752263
+        ],
+        "max": [
+          0.022353388,
+          0.32152656,
+          9.41399E-4
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "wheel",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.35560688,
+      -0.012145559,
+      -0.2752263
+    ],
+    "max": [
+      0.3558203,
+      1.2937274,
+      0.23403901
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Wheel",
+      "idToResourceMap": {
+        "0": "Wheel-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Wheel",
+      "structure": "Wheel",
+      "textureSet": "Wheel",
+      "icon": "Wheel.png"
+    }
+  ],
+  "description": {
+    "name": "Wheel",
+    "icon": "Wheel_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.745",
+    "created": "2022-02-07T13:34:39-0500EST",
+    "creator": "nahyunk1"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Wheel",
+      "format": "a3r",
+      "file": "wheel.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Wheel-textureReference",
+      "format": "a3t",
+      "file": "wheel.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "8ca0c675-7d43-44b7-9e37-891c35a96ade",
+      "height": 120.0,
+      "width": 79.0,
+      "name": "Wheel.png",
+      "format": "image/png",
+      "file": "Wheel.png",
+      "type": "image"
+    },
+    {
+      "uuid": "bdf9247d-1ce6-4302-827c-85ef37e7bc7c",
+      "height": 120.0,
+      "width": 79.0,
+      "name": "Wheel_cls.png",
+      "format": "image/png",
+      "file": "Wheel_cls.png",
+      "type": "image"
+    }
+  ]
+}

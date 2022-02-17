@@ -1,0 +1,172 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -0.60262686,
+          -0.29582405,
+          -0.23318143
+        ],
+        "max": [
+          0.60262686,
+          0.66000265,
+          0.33681583
+        ]
+      }
+    },
+    {
+      "name": "wheel",
+      "bounds": {
+        "min": [
+          -0.09785198,
+          0.0063565355,
+          -0.0155599
+        ],
+        "max": [
+          0.00952257,
+          0.1498999,
+          0.0155599
+        ]
+      }
+    },
+    {
+      "name": "button",
+      "bounds": {
+        "min": [
+          -0.062158193,
+          -0.03493847,
+          -0.058953583
+        ],
+        "max": [
+          0.05575104,
+          0.025493851,
+          0.058955412
+        ]
+      }
+    },
+    {
+      "name": "lever",
+      "bounds": {
+        "min": [
+          -0.016287956,
+          -0.00754064,
+          -0.01935071
+        ],
+        "max": [
+          0.022445166,
+          0.2022486,
+          0.01935073
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "wheel",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "button",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "lever",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.60262686,
+      -0.0058240495,
+      -0.23318143
+    ],
+    "max": [
+      0.60262686,
+      1.1122485,
+      0.33681583
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ControlPanel",
+      "idToResourceMap": {
+        "0": "ControlPanel-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ControlPanel",
+      "structure": "ControlPanel",
+      "textureSet": "ControlPanel",
+      "icon": "ControlPanel.png"
+    }
+  ],
+  "description": {
+    "name": "ControlPanel",
+    "icon": "ControlPanel_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.745",
+    "created": "2022-02-07T13:33:49-0500EST",
+    "creator": "nahyunk1"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ControlPanel",
+      "format": "a3r",
+      "file": "controlpanel.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ControlPanel-textureReference",
+      "format": "a3t",
+      "file": "controlpanel.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "3e8acb66-1c0e-465d-85fc-d884a1b2ebb7",
+      "height": 120.0,
+      "width": 136.0,
+      "name": "ControlPanel.png",
+      "format": "image/png",
+      "file": "ControlPanel.png",
+      "type": "image"
+    },
+    {
+      "uuid": "51231c96-bd25-4e78-9626-976d18670641",
+      "height": 120.0,
+      "width": 136.0,
+      "name": "ControlPanel_cls.png",
+      "format": "image/png",
+      "file": "ControlPanel_cls.png",
+      "type": "image"
+    }
+  ]
+}

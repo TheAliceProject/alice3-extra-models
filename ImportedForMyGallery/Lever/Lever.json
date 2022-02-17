@@ -1,0 +1,132 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -0.34748295,
+          -0.17489083,
+          -0.31287318
+        ],
+        "max": [
+          0.00863864,
+          0.17481479,
+          0.31287318
+        ]
+      }
+    },
+    {
+      "name": "Lever",
+      "bounds": {
+        "min": [
+          -0.055382352,
+          -0.098961905,
+          -0.09894149
+        ],
+        "max": [
+          0.05594225,
+          0.9800722,
+          0.099040166
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "Lever",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.17489083,
+      -0.00863864,
+      -0.31287318
+    ],
+    "max": [
+      0.17481479,
+      1.2086387,
+      0.31287318
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Lever",
+      "idToResourceMap": {
+        "0": "Lever-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Lever",
+      "structure": "Lever",
+      "textureSet": "Lever",
+      "icon": "Lever.png"
+    }
+  ],
+  "description": {
+    "name": "Lever",
+    "icon": "Lever_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.745",
+    "created": "2022-02-07T13:34:02-0500EST",
+    "creator": "nahyunk1"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Lever",
+      "format": "a3r",
+      "file": "lever.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Lever-textureReference",
+      "format": "a3t",
+      "file": "lever.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "e2aa50d9-d861-4989-98b7-2c35b8843a3b",
+      "height": 120.0,
+      "width": 38.0,
+      "name": "Lever.png",
+      "format": "image/png",
+      "file": "Lever.png",
+      "type": "image"
+    },
+    {
+      "uuid": "38c9df94-500a-4c01-94e3-7b4cdf27f92d",
+      "height": 120.0,
+      "width": 38.0,
+      "name": "Lever_cls.png",
+      "format": "image/png",
+      "file": "Lever_cls.png",
+      "type": "image"
+    }
+  ]
+}

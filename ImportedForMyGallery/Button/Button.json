@@ -1,0 +1,132 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -0.80740845,
+          -0.18157348,
+          -0.16434282
+        ],
+        "max": [
+          0.00406584,
+          0.18158302,
+          0.16433704
+        ]
+      }
+    },
+    {
+      "name": "button",
+      "bounds": {
+        "min": [
+          -0.06781807,
+          -0.027900606,
+          -0.06799396
+        ],
+        "max": [
+          0.06782738,
+          0.034065858,
+          0.06765171
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "button",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.18157348,
+      -0.00406584,
+      -0.16434282
+    ],
+    "max": [
+      0.18158302,
+      0.8640658,
+      0.16433704
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Button",
+      "idToResourceMap": {
+        "0": "Button-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Button",
+      "structure": "Button",
+      "textureSet": "Button",
+      "icon": "Button.png"
+    }
+  ],
+  "description": {
+    "name": "Button",
+    "icon": "Button_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.745",
+    "created": "2022-02-07T13:27:30-0500EST",
+    "creator": "nahyunk1"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Button",
+      "format": "a3r",
+      "file": "button.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Button-textureReference",
+      "format": "a3t",
+      "file": "button.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "5cc826e0-c8c2-4fbe-8854-f6938c789536",
+      "height": 120.0,
+      "width": 70.0,
+      "name": "Button.png",
+      "format": "image/png",
+      "file": "Button.png",
+      "type": "image"
+    },
+    {
+      "uuid": "a5322599-6247-4097-94c6-75583bfa4f53",
+      "height": 120.0,
+      "width": 70.0,
+      "name": "Button_cls.png",
+      "format": "image/png",
+      "file": "Button_cls.png",
+      "type": "image"
+    }
+  ]
+}
