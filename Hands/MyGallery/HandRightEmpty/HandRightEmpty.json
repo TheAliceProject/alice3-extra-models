@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.046473496,
+      -0.00427085,
+      -0.0834226
+    ],
+    "max": [
+      0.059946597,
+      0.047451217,
+      0.07846425
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "HandRightEmpty",
+      "idToResourceMap": {
+        "0": "HandRightEmpty-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "HandRightEmpty",
+      "structure": "HandRightEmpty",
+      "textureSet": "HandRightEmpty",
+      "icon": "HandRightEmpty.png"
+    }
+  ],
+  "description": {
+    "name": "HandRightEmpty",
+    "icon": "HandRightEmpty_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T13:49:50-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "HandRightEmpty",
+      "format": "a3r",
+      "file": "handrightempty.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "HandRightEmpty-textureReference",
+      "format": "a3t",
+      "file": "handrightempty.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "f334287c-4465-4935-abc6-99cc2bb287c3",
+      "height": 120.0,
+      "width": 152.0,
+      "name": "HandRightEmpty.png",
+      "format": "image/png",
+      "file": "HandRightEmpty.png",
+      "type": "image"
+    },
+    {
+      "uuid": "5a033ed4-fe1c-497e-b9e9-ab6bc6a33bb5",
+      "height": 120.0,
+      "width": 152.0,
+      "name": "HandRightEmpty_cls.png",
+      "format": "image/png",
+      "file": "HandRightEmpty_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "Handle"
+  ],
+  "jointBounds": [
+    {
+      "name": "Handle",
+      "bounds": {
+        "min": [
+          -0.11883845,
+          -0.19011073,
+          -0.18691653
+        ],
+        "max": [
+          0.11883847,
+          0.11549796,
+          0.050760407
+        ]
+      }
+    },
+    {
+      "name": "Handle_005",
+      "bounds": {
+        "min": [
+          -0.11883847,
+          -0.11959088,
+          -0.06156457
+        ],
+        "max": [
+          0.11883845,
+          0.118086025,
+          0.106318794
+        ]
+      }
+    },
+    {
+      "name": "center",
+      "bounds": {
+        "min": [
+          -0.04962548,
+          -0.050377816,
+          -0.04723616
+        ],
+        "max": [
+          0.049625427,
+          0.04887306,
+          0.01078114
+        ]
+      }
+    },
+    {
+      "name": "claw1",
+      "bounds": {
+        "min": [
+          -0.023252228,
+          -0.12416662,
+          -0.12513067
+        ],
+        "max": [
+          0.023252238,
+          0.016544076,
+          0.0010516044
+        ]
+      }
+    },
+    {
+      "name": "claw2",
+      "bounds": {
+        "min": [
+          -0.019714143,
+          -0.025969919,
+          -0.12757127
+        ],
+        "max": [
+          0.12210214,
+          0.02157094,
+          -0.0013889587
+        ]
+      }
+    },
+    {
+      "name": "claw3",
+      "bounds": {
+        "min": [
+          -0.12159671,
+          -0.025991358,
+          -0.12805407
+        ],
+        "max": [
+          0.02021958,
+          0.021549491,
+          -0.0018717634
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "Handle",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "Handle_005",
+      "parent": "Handle",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "center",
+      "parent": "Handle_005",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "claw1",
+      "parent": "center",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "claw2",
+      "parent": "center",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "claw3",
+      "parent": "center",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.030198164,
+      -0.08488364,
+      -0.55564576
+    ],
+    "max": [
+      0.20747884,
+      0.15279338,
+      0.042901542
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "HookShot",
+      "idToResourceMap": {
+        "0": "HookShot-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "HookShot",
+      "structure": "HookShot",
+      "textureSet": "HookShot",
+      "icon": "HookShot.png"
+    }
+  ],
+  "description": {
+    "name": "HookShot",
+    "icon": "HookShot_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T13:45:54-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "HookShot",
+      "format": "a3r",
+      "file": "hookshot.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "HookShot-textureReference",
+      "format": "a3t",
+      "file": "hookshot.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "ccd59fc9-996c-4e72-80b1-98dfc7835745",
+      "height": 120.0,
+      "width": 100.0,
+      "name": "HookShot.png",
+      "format": "image/png",
+      "file": "HookShot.png",
+      "type": "image"
+    },
+    {
+      "uuid": "7459d3fa-bcd0-46e0-adcd-6f483cbe3c26",
+      "height": 120.0,
+      "width": 100.0,
+      "name": "HookShot_cls.png",
+      "format": "image/png",
+      "file": "HookShot_cls.png",
+      "type": "image"
+    }
+  ]
+}

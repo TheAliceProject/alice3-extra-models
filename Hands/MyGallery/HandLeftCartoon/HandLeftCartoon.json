@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.102874294,
+      -0.08562469,
+      -0.15872109
+    ],
+    "max": [
+      0.07840986,
+      0.04997399,
+      0.083728224
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "HandLeftCartoon",
+      "idToResourceMap": {
+        "0": "HandLeftCartoon-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "HandLeftCartoon",
+      "structure": "HandLeftCartoon",
+      "textureSet": "HandLeftCartoon",
+      "icon": "HandLeftCartoon.png"
+    }
+  ],
+  "description": {
+    "name": "HandLeftCartoon",
+    "icon": "HandLeftCartoon_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T13:55:39-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "HandLeftCartoon",
+      "format": "a3r",
+      "file": "handleftcartoon.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "HandLeftCartoon-textureReference",
+      "format": "a3t",
+      "file": "handleftcartoon.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "466094e4-ef9c-414e-a8ba-9e2046cf24e7",
+      "height": 120.0,
+      "width": 134.0,
+      "name": "HandLeftCartoon.png",
+      "format": "image/png",
+      "file": "HandLeftCartoon.png",
+      "type": "image"
+    },
+    {
+      "uuid": "1974dd5b-963d-4ac9-84fc-d06395ff3a3c",
+      "height": 120.0,
+      "width": 134.0,
+      "name": "HandLeftCartoon_cls.png",
+      "format": "image/png",
+      "file": "HandLeftCartoon_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "joint1"
+  ],
+  "jointBounds": [
+    {
+      "name": "joint1",
+      "bounds": {
+        "min": [
+          -0.120832145,
+          -0.03890294,
+          -0.035479266
+        ],
+        "max": [
+          8.320454E-4,
+          0.03933522,
+          0.032247987
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "joint1",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "Palm",
+      "parent": "joint1",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.035479266,
+      -0.03890294,
+      -0.060832042
+    ],
+    "max": [
+      0.032247987,
+      0.03933522,
+      0.060832143
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "HandLeftHolding",
+      "idToResourceMap": {
+        "0": "HandLeftHolding-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "HandLeftHolding",
+      "structure": "HandLeftHolding",
+      "textureSet": "HandLeftHolding",
+      "icon": "HandLeftHolding.png"
+    }
+  ],
+  "description": {
+    "name": "HandLeftHolding",
+    "icon": "HandLeftHolding_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T13:49:18-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "HandLeftHolding",
+      "format": "a3r",
+      "file": "handleftholding.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "HandLeftHolding-textureReference",
+      "format": "a3t",
+      "file": "handleftholding.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "f77b0f9f-f9e3-4fa5-b427-f80e65b2eea0",
+      "height": 120.0,
+      "width": 59.0,
+      "name": "HandLeftHolding.png",
+      "format": "image/png",
+      "file": "HandLeftHolding.png",
+      "type": "image"
+    },
+    {
+      "uuid": "dc752706-c843-425c-a2de-d07e22b821f5",
+      "height": 120.0,
+      "width": 59.0,
+      "name": "HandLeftHolding_cls.png",
+      "format": "image/png",
+      "file": "HandLeftHolding_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "joint1"
+  ],
+  "jointBounds": [
+    {
+      "name": "joint1",
+      "bounds": {
+        "min": [
+          -0.12083217,
+          -0.03911909,
+          -0.033863638
+        ],
+        "max": [
+          8.321714E-4,
+          0.03911909,
+          0.033863638
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "joint1",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "Palm",
+      "parent": "joint1",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.033863638,
+      -0.03911909,
+      -0.06083217
+    ],
+    "max": [
+      0.033863638,
+      0.03911909,
+      0.06083217
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "HandRightHolding",
+      "idToResourceMap": {
+        "0": "HandRightHolding-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "HandRightHolding",
+      "structure": "HandRightHolding",
+      "textureSet": "HandRightHolding",
+      "icon": "HandRightHolding.png"
+    }
+  ],
+  "description": {
+    "name": "HandRightHolding",
+    "icon": "HandRightHolding_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T13:49:03-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "HandRightHolding",
+      "format": "a3r",
+      "file": "handrightholding.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "HandRightHolding-textureReference",
+      "format": "a3t",
+      "file": "handrightholding.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "e2609fd8-37dc-4a29-a21a-70ad5de0ce99",
+      "height": 120.0,
+      "width": 123.0,
+      "name": "HandRightHolding.png",
+      "format": "image/png",
+      "file": "HandRightHolding.png",
+      "type": "image"
+    },
+    {
+      "uuid": "0fa72def-c207-456d-8ba3-4f27b847c3b2",
+      "height": 120.0,
+      "width": 123.0,
+      "name": "HandRightHolding_cls.png",
+      "format": "image/png",
+      "file": "HandRightHolding_cls.png",
+      "type": "image"
+    }
+  ]
+}
