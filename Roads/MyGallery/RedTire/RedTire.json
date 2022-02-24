@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.5747299,
+      -0.003320872,
+      -0.5747299
+    ],
+    "max": [
+      0.5747299,
+      0.3433563,
+      0.5747299
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RedTire",
+      "idToResourceMap": {
+        "0": "RedTire-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RedTire",
+      "structure": "RedTire",
+      "textureSet": "RedTire",
+      "icon": "RedTire.png"
+    }
+  ],
+  "description": {
+    "name": "RedTire",
+    "icon": "RedTire_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:55:44-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RedTire",
+      "format": "a3r",
+      "file": "redtire.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RedTire-textureReference",
+      "format": "a3t",
+      "file": "redtire.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "62f162c0-aecf-4032-b731-3af455d33a9a",
+      "height": 112.0,
+      "width": 160.0,
+      "name": "RedTire.png",
+      "format": "image/png",
+      "file": "RedTire.png",
+      "type": "image"
+    },
+    {
+      "uuid": "7139df1f-4b6a-4c86-96dd-f75972e34e24",
+      "height": 112.0,
+      "width": 160.0,
+      "name": "RedTire_cls.png",
+      "format": "image/png",
+      "file": "RedTire_cls.png",
+      "type": "image"
+    }
+  ]
+}

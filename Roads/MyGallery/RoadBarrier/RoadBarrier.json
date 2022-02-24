@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.175493,
+      -1.78337E-4,
+      -0.2700008
+    ],
+    "max": [
+      1.175493,
+      1.536426,
+      0.2700008
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadBarrier",
+      "idToResourceMap": {
+        "0": "RoadBarrier-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadBarrier",
+      "structure": "RoadBarrier",
+      "textureSet": "RoadBarrier",
+      "icon": "RoadBarrier.png"
+    }
+  ],
+  "description": {
+    "name": "RoadBarrier",
+    "icon": "RoadBarrier_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:47:51-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadBarrier",
+      "format": "a3r",
+      "file": "roadbarrier.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadBarrier-textureReference",
+      "format": "a3t",
+      "file": "roadbarrier.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "b374baac-8636-4858-a6cf-139b21f84d20",
+      "height": 120.0,
+      "width": 140.0,
+      "name": "RoadBarrier.png",
+      "format": "image/png",
+      "file": "RoadBarrier.png",
+      "type": "image"
+    },
+    {
+      "uuid": "2010bf6b-50e4-41b6-bb47-03793296078a",
+      "height": 120.0,
+      "width": 140.0,
+      "name": "RoadBarrier_cls.png",
+      "format": "image/png",
+      "file": "RoadBarrier_cls.png",
+      "type": "image"
+    }
+  ]
+}

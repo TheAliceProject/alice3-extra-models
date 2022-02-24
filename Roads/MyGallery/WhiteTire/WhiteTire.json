@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.5747299,
+      -0.003320872,
+      -0.5747299
+    ],
+    "max": [
+      0.5747299,
+      0.3433563,
+      0.5747299
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "WhiteTire",
+      "idToResourceMap": {
+        "0": "WhiteTire-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "WhiteTire",
+      "structure": "WhiteTire",
+      "textureSet": "WhiteTire",
+      "icon": "WhiteTire.png"
+    }
+  ],
+  "description": {
+    "name": "WhiteTire",
+    "icon": "WhiteTire_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:55:53-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "WhiteTire",
+      "format": "a3r",
+      "file": "whitetire.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "WhiteTire-textureReference",
+      "format": "a3t",
+      "file": "whitetire.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "40a9d71c-edbe-4ba6-8223-9c73ae472347",
+      "height": 120.0,
+      "width": 157.0,
+      "name": "WhiteTire.png",
+      "format": "image/png",
+      "file": "WhiteTire.png",
+      "type": "image"
+    },
+    {
+      "uuid": "6df22e4e-c69f-4c5c-9261-30e8a30b5ee1",
+      "height": 120.0,
+      "width": 157.0,
+      "name": "WhiteTire_cls.png",
+      "format": "image/png",
+      "file": "WhiteTire_cls.png",
+      "type": "image"
+    }
+  ]
+}

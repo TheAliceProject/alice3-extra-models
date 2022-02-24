@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -4.796382,
+      -0.0194773,
+      -0.15
+    ],
+    "max": [
+      4.788472,
+      5.441813,
+      0.15
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "FinishLine",
+      "idToResourceMap": {
+        "0": "FinishLine-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "FinishLine",
+      "structure": "FinishLine",
+      "textureSet": "FinishLine",
+      "icon": "FinishLine.png"
+    }
+  ],
+  "description": {
+    "name": "FinishLine",
+    "icon": "FinishLine_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:54:12-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "FinishLine",
+      "format": "a3r",
+      "file": "finishline.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "FinishLine-textureReference",
+      "format": "a3t",
+      "file": "finishline.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "67b35d29-dafc-4a98-9231-1c74fc92ca1f",
+      "height": 101.0,
+      "width": 160.0,
+      "name": "FinishLine.png",
+      "format": "image/png",
+      "file": "FinishLine.png",
+      "type": "image"
+    },
+    {
+      "uuid": "b6981789-3730-48c8-90ac-a15355f8e6a4",
+      "height": 101.0,
+      "width": 160.0,
+      "name": "FinishLine_cls.png",
+      "format": "image/png",
+      "file": "FinishLine_cls.png",
+      "type": "image"
+    }
+  ]
+}

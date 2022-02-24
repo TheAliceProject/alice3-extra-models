@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.086451,
+      -0.0220561,
+      -1.057899
+    ],
+    "max": [
+      1.088808,
+      6.231166,
+      1.055121
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Scaffolding",
+      "idToResourceMap": {
+        "0": "Scaffolding-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Scaffolding",
+      "structure": "Scaffolding",
+      "textureSet": "Scaffolding",
+      "icon": "Scaffolding.png"
+    }
+  ],
+  "description": {
+    "name": "Scaffolding",
+    "icon": "Scaffolding_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:55:19-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Scaffolding",
+      "format": "a3r",
+      "file": "scaffolding.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Scaffolding-textureReference",
+      "format": "a3t",
+      "file": "scaffolding.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "48364bf2-b88b-4592-9885-736c8b81885a",
+      "height": 120.0,
+      "width": 55.0,
+      "name": "Scaffolding.png",
+      "format": "image/png",
+      "file": "Scaffolding.png",
+      "type": "image"
+    },
+    {
+      "uuid": "a0004bbe-54a4-4e9a-84a8-dbd81b2f6693",
+      "height": 120.0,
+      "width": 55.0,
+      "name": "Scaffolding_cls.png",
+      "format": "image/png",
+      "file": "Scaffolding_cls.png",
+      "type": "image"
+    }
+  ]
+}
