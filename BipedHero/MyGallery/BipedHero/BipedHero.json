@@ -1,0 +1,1123 @@
+{
+  "parentClass": "Biped",
+  "rootJoints": [
+    "ROOT"
+  ],
+  "jointBounds": [
+    {
+      "name": "ROOT",
+      "bounds": {
+        "min": [
+          -0.15055485,
+          -0.10967551,
+          -0.1618901
+        ],
+        "max": [
+          0.15055475,
+          0.12537305,
+          0.044028003
+        ]
+      }
+    },
+    {
+      "name": "SPINE_BASE",
+      "bounds": {
+        "min": [
+          -0.16648437,
+          -0.11323167,
+          -0.21434112
+        ],
+        "max": [
+          0.16438502,
+          0.16094781,
+          0.06804904
+        ]
+      }
+    },
+    {
+      "name": "SPINE_MIDDLE",
+      "bounds": {
+        "min": [
+          -0.1472784,
+          -0.10452612,
+          -0.15475368
+        ],
+        "max": [
+          0.146397,
+          0.15773079,
+          0.056843564
+        ]
+      }
+    },
+    {
+      "name": "SPINE_UPPER",
+      "bounds": {
+        "min": [
+          -0.05648875,
+          -0.07517678,
+          -0.09805396
+        ],
+        "max": [
+          0.053533074,
+          0.13788904,
+          0.026369369
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_CLAVICLE",
+      "bounds": {
+        "min": [
+          -0.103121944,
+          -0.09142243,
+          -0.14255713
+        ],
+        "max": [
+          0.14202945,
+          0.042756695,
+          0.056815967
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_SHOULDER",
+      "bounds": {
+        "min": [
+          -0.12156584,
+          -0.14928861,
+          -0.24639685
+        ],
+        "max": [
+          0.08251161,
+          0.044381678,
+          0.0339859
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_ELBOW",
+      "bounds": {
+        "min": [
+          -0.06049514,
+          -0.046933405,
+          -0.24190572
+        ],
+        "max": [
+          0.04544906,
+          0.046947513,
+          0.019288547
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_WRIST",
+      "bounds": {
+        "min": [
+          -0.0385907,
+          -0.024064934,
+          -0.07383914
+        ],
+        "max": [
+          0.042885136,
+          0.030330332,
+          0.009148382
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_HAND",
+      "bounds": {
+        "min": [
+          -0.042687144,
+          -0.021056056,
+          -0.0459555
+        ],
+        "max": [
+          0.036513608,
+          0.023410926,
+          0.0061047417
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_INDEX_FINGER",
+      "bounds": {
+        "min": [
+          -0.010309379,
+          -0.021982742,
+          -0.030004937
+        ],
+        "max": [
+          0.015533974,
+          0.01727767,
+          0.026472665
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_INDEX_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0070012426,
+          -0.0075796964,
+          -0.034338403
+        ],
+        "max": [
+          0.006698137,
+          0.007301719,
+          -0.003483349
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_INDEX_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.0040546567,
+          -0.0013159607,
+          -0.005333279
+        ],
+        "max": [
+          0.005099717,
+          0.0034636313,
+          -7.09116E-4
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_MIDDLE_FINGER",
+      "bounds": {
+        "min": [
+          -0.012516382,
+          -0.015933262,
+          -0.037735865
+        ],
+        "max": [
+          0.010167745,
+          0.017474063,
+          0.013879374
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_MIDDLE_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0072057783,
+          -0.0073306267,
+          -0.028998217
+        ],
+        "max": [
+          0.006847737,
+          0.01058928,
+          0.0011272635
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_MIDDLE_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.004052571,
+          -0.0070553184,
+          -0.0072495225
+        ],
+        "max": [
+          0.0046644304,
+          0.004220151,
+          0.0013193731
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_RING_FINGER",
+      "bounds": {
+        "min": [
+          -0.0123903565,
+          -0.00742827,
+          -0.032178227
+        ],
+        "max": [
+          0.011090333,
+          0.014078351,
+          0.01336653
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_RING_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0061983564,
+          -0.007268525,
+          -0.037912264
+        ],
+        "max": [
+          0.0075154463,
+          0.008311567,
+          6.172663E-4
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_RING_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.004518785,
+          -0.0044734892,
+          -0.008455816
+        ],
+        "max": [
+          0.0023540729,
+          0.004630131,
+          0.0015793408
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_PINKY_FINGER",
+      "bounds": {
+        "min": [
+          -0.009057017,
+          -0.028276633,
+          -0.024466727
+        ],
+        "max": [
+          0.0155655565,
+          0.0077751055,
+          0.026332257
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_PINKY_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0054819747,
+          -0.005420918,
+          -0.025632976
+        ],
+        "max": [
+          0.006492165,
+          0.0075229136,
+          -0.0016798689
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_PINKY_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.0046957307,
+          -0.0047756364,
+          -0.0062089916
+        ],
+        "max": [
+          0.0032492506,
+          0.0034463897,
+          0.0024254655
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_THUMB",
+      "bounds": {
+        "min": [
+          -0.013434,
+          -0.021494495,
+          -0.036802627
+        ],
+        "max": [
+          0.031652786,
+          0.023386814,
+          0.03697539
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_THUMB_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.010508577,
+          -0.008189017,
+          -0.030302238
+        ],
+        "max": [
+          0.009611587,
+          0.008164725,
+          0.0024188298
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_THUMB_TIP",
+      "bounds": {
+        "min": [
+          -0.006098054,
+          -0.0061624013,
+          -0.0063789226
+        ],
+        "max": [
+          0.0024640292,
+          0.0061435876,
+          9.968895E-4
+        ]
+      }
+    },
+    {
+      "name": "NECK",
+      "bounds": {
+        "min": [
+          -0.08537802,
+          -0.06253359,
+          -0.08090251
+        ],
+        "max": [
+          0.08537791,
+          0.08691767,
+          0.02522468
+        ]
+      }
+    },
+    {
+      "name": "HEAD",
+      "bounds": {
+        "min": [
+          -0.07370343,
+          -0.03848132,
+          -0.13033903
+        ],
+        "max": [
+          0.073703304,
+          0.15574524,
+          0.06750427
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_EYELID",
+      "bounds": {
+        "min": [
+          -0.01877158,
+          -0.019902641,
+          -0.005177932
+        ],
+        "max": [
+          0.014662415,
+          0.008906075,
+          0.01446064
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_EYE",
+      "bounds": {
+        "min": [
+          -0.016134407,
+          -0.016392585,
+          -0.0025228397
+        ],
+        "max": [
+          0.016008556,
+          0.01574809,
+          0.029617356
+        ]
+      }
+    },
+    {
+      "name": "MOUTH",
+      "bounds": {
+        "min": [
+          -0.047625985,
+          -0.051786445,
+          -0.063030645
+        ],
+        "max": [
+          0.04762582,
+          0.025233472,
+          -0.005127718
+        ]
+      }
+    },
+    {
+      "name": "LOWER_LIP",
+      "bounds": {
+        "min": [
+          -0.030592699,
+          -0.023833644,
+          -0.010373754
+        ],
+        "max": [
+          0.030592792,
+          0.020782072,
+          0.024817506
+        ]
+      }
+    },
+    {
+      "name": "LEFT_EYELID",
+      "bounds": {
+        "min": [
+          -0.014742813,
+          -0.019900989,
+          -0.004214736
+        ],
+        "max": [
+          0.017431673,
+          0.008904409,
+          0.014464831
+        ]
+      }
+    },
+    {
+      "name": "LEFT_EYE",
+      "bounds": {
+        "min": [
+          -0.01608906,
+          -0.016391054,
+          -0.0025227866
+        ],
+        "max": [
+          0.016053895,
+          0.01574969,
+          0.029617473
+        ]
+      }
+    },
+    {
+      "name": "LEFT_CLAVICLE",
+      "bounds": {
+        "min": [
+          -0.14206365,
+          -0.09135098,
+          -0.14255758
+        ],
+        "max": [
+          0.103068195,
+          0.042760555,
+          0.05681565
+        ]
+      }
+    },
+    {
+      "name": "LEFT_SHOULDER",
+      "bounds": {
+        "min": [
+          -0.097289465,
+          -0.1395287,
+          -0.24639708
+        ],
+        "max": [
+          0.11448418,
+          0.042478457,
+          0.03398556
+        ]
+      }
+    },
+    {
+      "name": "LEFT_ELBOW",
+      "bounds": {
+        "min": [
+          -0.04587633,
+          -0.046048004,
+          -0.24190544
+        ],
+        "max": [
+          0.058413025,
+          0.04631386,
+          0.019288534
+        ]
+      }
+    },
+    {
+      "name": "LEFT_WRIST",
+      "bounds": {
+        "min": [
+          -0.041007757,
+          -0.035954773,
+          -0.073838696
+        ],
+        "max": [
+          0.042071912,
+          0.023331936,
+          0.009148697
+        ]
+      }
+    },
+    {
+      "name": "LEFT_HAND",
+      "bounds": {
+        "min": [
+          -0.042759523,
+          -0.023514977,
+          -0.045892883
+        ],
+        "max": [
+          0.03645966,
+          0.02118497,
+          0.006202813
+        ]
+      }
+    },
+    {
+      "name": "LEFT_INDEX_FINGER",
+      "bounds": {
+        "min": [
+          -0.020371089,
+          -0.019191895,
+          -0.030004708
+        ],
+        "max": [
+          0.011557658,
+          0.017716506,
+          0.026472831
+        ]
+      }
+    },
+    {
+      "name": "LEFT_INDEX_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0066327984,
+          -0.008286719,
+          -0.03433806
+        ],
+        "max": [
+          0.006745348,
+          0.0071434774,
+          -0.0034828188
+        ]
+      }
+    },
+    {
+      "name": "LEFT_INDEX_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.0051107295,
+          -0.001414986,
+          -0.0053333165
+        ],
+        "max": [
+          0.0040213526,
+          0.0034611917,
+          -7.0903375E-4
+        ]
+      }
+    },
+    {
+      "name": "LEFT_MIDDLE_FINGER",
+      "bounds": {
+        "min": [
+          -0.011342038,
+          -0.011663535,
+          -0.037735343
+        ],
+        "max": [
+          0.015625194,
+          0.015560979,
+          0.013879651
+        ]
+      }
+    },
+    {
+      "name": "LEFT_MIDDLE_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0074984864,
+          -0.0069754524,
+          -0.028997887
+        ],
+        "max": [
+          0.008084625,
+          0.008644415,
+          0.0011275199
+        ]
+      }
+    },
+    {
+      "name": "LEFT_MIDDLE_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.004615069,
+          -0.0070878584,
+          -0.0072495253
+        ],
+        "max": [
+          0.0040730084,
+          0.004218774,
+          0.0013194864
+        ]
+      }
+    },
+    {
+      "name": "LEFT_RING_FINGER",
+      "bounds": {
+        "min": [
+          -0.01013925,
+          -0.009763165,
+          -0.032178286
+        ],
+        "max": [
+          0.014399644,
+          0.009269954,
+          0.003343482
+        ]
+      }
+    },
+    {
+      "name": "LEFT_RING_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0076722926,
+          -0.006843502,
+          -0.03791223
+        ],
+        "max": [
+          0.006951871,
+          0.008196939,
+          6.1721547E-4
+        ]
+      }
+    },
+    {
+      "name": "LEFT_RING_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.0024478298,
+          -0.0043839617,
+          -0.008455794
+        ],
+        "max": [
+          0.0044529648,
+          0.0050921245,
+          0.0015793793
+        ]
+      }
+    },
+    {
+      "name": "LEFT_PINKY_FINGER",
+      "bounds": {
+        "min": [
+          -0.021328693,
+          -0.023497859,
+          -0.024466723
+        ],
+        "max": [
+          0.008288408,
+          0.008085479,
+          0.026332524
+        ]
+      }
+    },
+    {
+      "name": "LEFT_PINKY_FINGER_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0064636073,
+          -0.005366448,
+          -0.025632886
+        ],
+        "max": [
+          0.0066009015,
+          0.007489798,
+          -0.0016798037
+        ]
+      }
+    },
+    {
+      "name": "LEFT_PINKY_FINGER_TIP",
+      "bounds": {
+        "min": [
+          -0.0033217587,
+          -0.004812257,
+          -0.0062088873
+        ],
+        "max": [
+          0.004704283,
+          0.0034334236,
+          0.0024256166
+        ]
+      }
+    },
+    {
+      "name": "LEFT_THUMB",
+      "bounds": {
+        "min": [
+          -0.031581312,
+          -0.021549622,
+          -0.036802262
+        ],
+        "max": [
+          0.0134199755,
+          0.023336254,
+          0.0369759
+        ]
+      }
+    },
+    {
+      "name": "LEFT_THUMB_KNUCKLE",
+      "bounds": {
+        "min": [
+          -0.0096125845,
+          -0.00818751,
+          -0.030301867
+        ],
+        "max": [
+          0.010509399,
+          0.008162895,
+          0.0024191523
+        ]
+      }
+    },
+    {
+      "name": "LEFT_THUMB_TIP",
+      "bounds": {
+        "min": [
+          -0.0024845162,
+          -0.006147184,
+          -0.0063784583
+        ],
+        "max": [
+          0.0060963975,
+          0.006135393,
+          9.974004E-4
+        ]
+      }
+    },
+    {
+      "name": "PELVIS_LOWER_BODY",
+      "bounds": {
+        "min": [
+          -0.13412307,
+          -0.123938836,
+          -0.13488317
+        ],
+        "max": [
+          0.13412291,
+          0.10113035,
+          0.05140049
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_HIP",
+      "bounds": {
+        "min": [
+          -0.09241922,
+          -0.12580517,
+          -0.3374222
+        ],
+        "max": [
+          0.06903414,
+          0.10125904,
+          0.12873726
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_KNEE",
+      "bounds": {
+        "min": [
+          -0.061954953,
+          -0.10063079,
+          -0.3557645
+        ],
+        "max": [
+          0.06535488,
+          0.062136795,
+          0.007234721
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_ANKLE",
+      "bounds": {
+        "min": [
+          -0.04290019,
+          -0.095771536,
+          -0.050902702
+        ],
+        "max": [
+          0.036011416,
+          0.051784866,
+          0.062178094
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_FOOT",
+      "bounds": {
+        "min": [
+          -0.050969232,
+          -0.058317777,
+          -0.12876326
+        ],
+        "max": [
+          0.05150984,
+          0.056170765,
+          0.11100749
+        ]
+      }
+    },
+    {
+      "name": "RIGHT_TOES",
+      "bounds": {
+        "min": [
+          -0.048694327,
+          -0.010639675,
+          -0.034578826
+        ],
+        "max": [
+          0.010097186,
+          0.004055006,
+          9.922251E-4
+        ]
+      }
+    },
+    {
+      "name": "LEFT_HIP",
+      "bounds": {
+        "min": [
+          -0.06903432,
+          -0.12580511,
+          -0.33742204
+        ],
+        "max": [
+          0.092419095,
+          0.10125907,
+          0.12873732
+        ]
+      }
+    },
+    {
+      "name": "LEFT_KNEE",
+      "bounds": {
+        "min": [
+          -0.06528871,
+          -0.10059623,
+          -0.35576436
+        ],
+        "max": [
+          0.062042344,
+          0.062142286,
+          0.007234756
+        ]
+      }
+    },
+    {
+      "name": "LEFT_ANKLE",
+      "bounds": {
+        "min": [
+          -0.036011327,
+          -0.09577135,
+          -0.050902642
+        ],
+        "max": [
+          0.042900275,
+          0.051785,
+          0.062178157
+        ]
+      }
+    },
+    {
+      "name": "LEFT_FOOT",
+      "bounds": {
+        "min": [
+          -0.051509686,
+          -0.058317684,
+          -0.12876321
+        ],
+        "max": [
+          0.05096937,
+          0.056170844,
+          0.111007415
+        ]
+      }
+    },
+    {
+      "name": "LEFT_TOES",
+      "bounds": {
+        "min": [
+          -0.01009719,
+          -0.01063948,
+          -0.034578823
+        ],
+        "max": [
+          0.048694346,
+          0.0040551946,
+          9.922482E-4
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "RIGHT_INDEX_FINGER_TIP",
+      "parent": "RIGHT_INDEX_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_MIDDLE_FINGER_TIP",
+      "parent": "RIGHT_MIDDLE_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER",
+      "parent": "RIGHT_HAND",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER_KNUCKLE",
+      "parent": "RIGHT_RING_FINGER",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_RING_FINGER_TIP",
+      "parent": "RIGHT_RING_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_PINKY_FINGER_TIP",
+      "parent": "RIGHT_PINKY_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_THUMB_TIP",
+      "parent": "RIGHT_THUMB_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LOWER_LIP",
+      "parent": "MOUTH",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_INDEX_FINGER_TIP",
+      "parent": "LEFT_INDEX_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_MIDDLE_FINGER_TIP",
+      "parent": "LEFT_MIDDLE_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER",
+      "parent": "LEFT_HAND",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER_KNUCKLE",
+      "parent": "LEFT_RING_FINGER",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_RING_FINGER_TIP",
+      "parent": "LEFT_RING_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_PINKY_FINGER_TIP",
+      "parent": "LEFT_PINKY_FINGER_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_THUMB_TIP",
+      "parent": "LEFT_THUMB_KNUCKLE",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RIGHT_TOES",
+      "parent": "RIGHT_FOOT",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LEFT_TOES",
+      "parent": "LEFT_FOOT",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.35862055,
+      -0.0014200512,
+      -0.12934168
+    ],
+    "max": [
+      0.35862067,
+      1.6823589,
+      0.183415
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "BipedHero",
+      "idToResourceMap": {
+        "0": "BipedHero-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "BipedHero",
+      "structure": "BipedHero",
+      "textureSet": "BipedHero",
+      "icon": "BipedHero.png"
+    }
+  ],
+  "description": {
+    "name": "BipedHero",
+    "icon": "BipedHero_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T11:23:56-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "BipedHero",
+      "format": "a3r",
+      "file": "bipedhero.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "BipedHero-textureReference",
+      "format": "a3t",
+      "file": "bipedhero.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "1d0f0e39-0cce-4dd1-8e55-65c08b69282b",
+      "height": 120.0,
+      "width": 55.0,
+      "name": "BipedHero.png",
+      "format": "image/png",
+      "file": "BipedHero.png",
+      "type": "image"
+    },
+    {
+      "uuid": "43c8a0ef-a8d6-4f6a-98ff-7e21c5910ac9",
+      "height": 120.0,
+      "width": 55.0,
+      "name": "BipedHero_cls.png",
+      "format": "image/png",
+      "file": "BipedHero_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -2,6 +2,9 @@
 
 ## Models to expand the Alice gallery
 
+### BipedHero
+A minimal biped model to use as a starting point to create other biped models for import.
+
 ### Interaction Symbols
 Marks that could be shown above models to express themselves.
 There are various forms to suit individual style.
