@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.535128,
+      -1.364149,
+      -1.033738
+    ],
+    "max": [
+      1.524495,
+      1.667667,
+      0.9259184
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "DoorSquareWood",
+      "idToResourceMap": {
+        "0": "DoorSquareWood-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "DoorSquareWood",
+      "structure": "DoorSquareWood",
+      "textureSet": "DoorSquareWood",
+      "icon": "DoorSquareWood.png"
+    }
+  ],
+  "description": {
+    "name": "DoorSquareWood",
+    "icon": "DoorSquareWood_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:36:31-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "DoorSquareWood",
+      "format": "a3r",
+      "file": "doorsquarewood.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "DoorSquareWood-textureReference",
+      "format": "a3t",
+      "file": "doorsquarewood.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "f99b3cec-16f6-432a-bba8-d8c99c5bba0a",
+      "height": 120.0,
+      "width": 126.0,
+      "name": "DoorSquareWood.png",
+      "format": "image/png",
+      "file": "DoorSquareWood.png",
+      "type": "image"
+    },
+    {
+      "uuid": "497a156f-11d6-4c5f-a361-1dca12e60b66",
+      "height": 120.0,
+      "width": 126.0,
+      "name": "DoorSquareWood_cls.png",
+      "format": "image/png",
+      "file": "DoorSquareWood_cls.png",
+      "type": "image"
+    }
+  ]
+}

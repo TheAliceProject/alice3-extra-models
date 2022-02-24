@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.426022,
+      0.01061147,
+      -3.426022
+    ],
+    "max": [
+      3.434271,
+      4.0234,
+      3.426022
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "BaseLower",
+      "idToResourceMap": {
+        "0": "BaseLower-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "BaseLower",
+      "structure": "BaseLower",
+      "textureSet": "BaseLower",
+      "icon": "BaseLower.png"
+    }
+  ],
+  "description": {
+    "name": "BaseLower",
+    "icon": "BaseLower_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:34:36-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "BaseLower",
+      "format": "a3r",
+      "file": "baselower.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "BaseLower-textureReference",
+      "format": "a3t",
+      "file": "baselower.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "9d79c17c-4e02-4ed4-9458-5fbcc79f6d5e",
+      "height": 120.0,
+      "width": 138.0,
+      "name": "BaseLower.png",
+      "format": "image/png",
+      "file": "BaseLower.png",
+      "type": "image"
+    },
+    {
+      "uuid": "ee9753e0-0b29-4f82-8378-0807797ee63c",
+      "height": 120.0,
+      "width": 138.0,
+      "name": "BaseLower_cls.png",
+      "format": "image/png",
+      "file": "BaseLower_cls.png",
+      "type": "image"
+    }
+  ]
+}

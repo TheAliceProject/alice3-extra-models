@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.485982,
+      -1.531059,
+      -0.8884156
+    ],
+    "max": [
+      1.486945,
+      1.53261,
+      0.1291231
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "DoorRoundStone",
+      "idToResourceMap": {
+        "0": "DoorRoundStone-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "DoorRoundStone",
+      "structure": "DoorRoundStone",
+      "textureSet": "DoorRoundStone",
+      "icon": "DoorRoundStone.png"
+    }
+  ],
+  "description": {
+    "name": "DoorRoundStone",
+    "icon": "DoorRoundStone_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:36:18-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "DoorRoundStone",
+      "format": "a3r",
+      "file": "doorroundstone.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "DoorRoundStone-textureReference",
+      "format": "a3t",
+      "file": "doorroundstone.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "a7ee722b-69ef-40f7-8460-f954081b29c7",
+      "height": 120.0,
+      "width": 120.0,
+      "name": "DoorRoundStone.png",
+      "format": "image/png",
+      "file": "DoorRoundStone.png",
+      "type": "image"
+    },
+    {
+      "uuid": "0654824a-272f-492a-9f25-c8ed5f644acc",
+      "height": 120.0,
+      "width": 120.0,
+      "name": "DoorRoundStone_cls.png",
+      "format": "image/png",
+      "file": "DoorRoundStone_cls.png",
+      "type": "image"
+    }
+  ]
+}

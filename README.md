@@ -9,6 +9,9 @@ A minimal biped model to use as a starting point to create other biped models fo
 Marks that could be shown above models to express themselves.
 There are various forms to suit individual style.
 
+### Modular House
+Some building elements for houses. (Warning, some textures in the base elements are off or have been substituted.)
+
 ### Roads
 Models of two lane roads. The joint nextTrackPiece enables them to connect smoothly together.
 Each model has a sequence of numbered joints for the lanes, A1, A2… and B1, B2…

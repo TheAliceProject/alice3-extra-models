@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.426022,
+      0.01061147,
+      -3.426022
+    ],
+    "max": [
+      2.965336,
+      4.0234,
+      3.426022
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "BaseLowerEnd",
+      "idToResourceMap": {
+        "0": "BaseLowerEnd-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "BaseLowerEnd",
+      "structure": "BaseLowerEnd",
+      "textureSet": "BaseLowerEnd",
+      "icon": "BaseLowerEnd.png"
+    }
+  ],
+  "description": {
+    "name": "BaseLowerEnd",
+    "icon": "BaseLowerEnd_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:37:06-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "BaseLowerEnd",
+      "format": "a3r",
+      "file": "baselowerend.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "BaseLowerEnd-textureReference",
+      "format": "a3t",
+      "file": "baselowerend.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "f137cf1a-446d-40aa-82ec-a749405506dc",
+      "height": 120.0,
+      "width": 130.0,
+      "name": "BaseLowerEnd.png",
+      "format": "image/png",
+      "file": "BaseLowerEnd.png",
+      "type": "image"
+    },
+    {
+      "uuid": "3b1a5c23-65e1-4ff9-8ee6-34140972d099",
+      "height": 120.0,
+      "width": 130.0,
+      "name": "BaseLowerEnd_cls.png",
+      "format": "image/png",
+      "file": "BaseLowerEnd_cls.png",
+      "type": "image"
+    }
+  ]
+}

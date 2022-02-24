@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -2.055467,
+      -2.080777,
+      -1.101661
+    ],
+    "max": [
+      2.00159,
+      2.073982,
+      0.06156468
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "DoorArchedStone",
+      "idToResourceMap": {
+        "0": "DoorArchedStone-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "DoorArchedStone",
+      "structure": "DoorArchedStone",
+      "textureSet": "DoorArchedStone",
+      "icon": "DoorArchedStone.png"
+    }
+  ],
+  "description": {
+    "name": "DoorArchedStone",
+    "icon": "DoorArchedStone_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:36:07-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "DoorArchedStone",
+      "format": "a3r",
+      "file": "doorarchedstone.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "DoorArchedStone-textureReference",
+      "format": "a3t",
+      "file": "doorarchedstone.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "fbc0df81-fbc4-408c-93ca-4ff82a69da0b",
+      "height": 120.0,
+      "width": 109.0,
+      "name": "DoorArchedStone.png",
+      "format": "image/png",
+      "file": "DoorArchedStone.png",
+      "type": "image"
+    },
+    {
+      "uuid": "2856bb13-4c5a-47d8-b08c-2ba7ded05ac6",
+      "height": 120.0,
+      "width": 109.0,
+      "name": "DoorArchedStone_cls.png",
+      "format": "image/png",
+      "file": "DoorArchedStone_cls.png",
+      "type": "image"
+    }
+  ]
+}

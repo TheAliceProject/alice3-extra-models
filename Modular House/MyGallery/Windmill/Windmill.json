@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -4.315468,
+      -0.7560802,
+      -4.33797
+    ],
+    "max": [
+      4.460026,
+      0.7560802,
+      4.324245
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Windmill",
+      "idToResourceMap": {
+        "0": "Windmill-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Windmill",
+      "structure": "Windmill",
+      "textureSet": "Windmill",
+      "icon": "Windmill.png"
+    }
+  ],
+  "description": {
+    "name": "Windmill",
+    "icon": "Windmill_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:34:55-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Windmill",
+      "format": "a3r",
+      "file": "windmill.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Windmill-textureReference",
+      "format": "a3t",
+      "file": "windmill.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "0d536676-32c6-473d-b5d5-967aca35f6c5",
+      "height": 84.0,
+      "width": 160.0,
+      "name": "Windmill.png",
+      "format": "image/png",
+      "file": "Windmill.png",
+      "type": "image"
+    },
+    {
+      "uuid": "826e017d-1482-49a2-bcf7-736a2ec53c79",
+      "height": 84.0,
+      "width": 160.0,
+      "name": "Windmill_cls.png",
+      "format": "image/png",
+      "file": "Windmill_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.663621,
+      0.01147437,
+      -2.285902
+    ],
+    "max": [
+      2.285902,
+      2.865572,
+      1.66362
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "BaseUpperCorner",
+      "idToResourceMap": {
+        "0": "BaseUpperCorner-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "BaseUpperCorner",
+      "structure": "BaseUpperCorner",
+      "textureSet": "BaseUpperCorner",
+      "icon": "BaseUpperCorner.png"
+    }
+  ],
+  "description": {
+    "name": "BaseUpperCorner",
+    "icon": "BaseUpperCorner_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:35:20-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "BaseUpperCorner",
+      "format": "a3r",
+      "file": "baseuppercorner.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "BaseUpperCorner-textureReference",
+      "format": "a3t",
+      "file": "baseuppercorner.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "a10431be-67dd-45c9-9d03-1d578dff4d2f",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "BaseUpperCorner.png",
+      "format": "image/png",
+      "file": "BaseUpperCorner.png",
+      "type": "image"
+    },
+    {
+      "uuid": "7554e6b5-c261-404d-b114-3cd4a8932fc9",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "BaseUpperCorner_cls.png",
+      "format": "image/png",
+      "file": "BaseUpperCorner_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.886991,
+      -0.6897357,
+      -3.603708
+    ],
+    "max": [
+      3.886991,
+      3.522694,
+      3.481051
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoofFull",
+      "idToResourceMap": {
+        "0": "RoofFull-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoofFull",
+      "structure": "RoofFull",
+      "textureSet": "RoofFull",
+      "icon": "RoofFull.png"
+    }
+  ],
+  "description": {
+    "name": "RoofFull",
+    "icon": "RoofFull_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:34:07-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoofFull",
+      "format": "a3r",
+      "file": "rooffull.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoofFull-textureReference",
+      "format": "a3t",
+      "file": "rooffull.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "b84435bf-4e18-4c07-ad6b-eab8baed6fbb",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "RoofFull.png",
+      "format": "image/png",
+      "file": "RoofFull.png",
+      "type": "image"
+    },
+    {
+      "uuid": "22191005-a851-40e7-80bd-8878843736de",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "RoofFull_cls.png",
+      "format": "image/png",
+      "file": "RoofFull_cls.png",
+      "type": "image"
+    }
+  ]
+}

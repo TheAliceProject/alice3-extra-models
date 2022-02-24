@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.662024,
+      -1.509401,
+      -1.170397
+    ],
+    "max": [
+      1.677363,
+      1.811239,
+      0.9055637
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "DoorRoundWood",
+      "idToResourceMap": {
+        "0": "DoorRoundWood-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "DoorRoundWood",
+      "structure": "DoorRoundWood",
+      "textureSet": "DoorRoundWood",
+      "icon": "DoorRoundWood.png"
+    }
+  ],
+  "description": {
+    "name": "DoorRoundWood",
+    "icon": "DoorRoundWood_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:36:43-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "DoorRoundWood",
+      "format": "a3r",
+      "file": "doorroundwood.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "DoorRoundWood-textureReference",
+      "format": "a3t",
+      "file": "doorroundwood.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "0fd4b206-0e8c-4f5f-a50c-ee4e42f0b1e9",
+      "height": 120.0,
+      "width": 131.0,
+      "name": "DoorRoundWood.png",
+      "format": "image/png",
+      "file": "DoorRoundWood.png",
+      "type": "image"
+    },
+    {
+      "uuid": "b048ae81-dd86-4872-b511-e3ba2b31d06f",
+      "height": 120.0,
+      "width": 131.0,
+      "name": "DoorRoundWood_cls.png",
+      "format": "image/png",
+      "file": "DoorRoundWood_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.886991,
+      -0.6897357,
+      -3.073147
+    ],
+    "max": [
+      3.886991,
+      3.522694,
+      3.481051
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoofEnd",
+      "idToResourceMap": {
+        "0": "RoofEnd-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoofEnd",
+      "structure": "RoofEnd",
+      "textureSet": "RoofEnd",
+      "icon": "RoofEnd.png"
+    }
+  ],
+  "description": {
+    "name": "RoofEnd",
+    "icon": "RoofEnd_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:34:18-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoofEnd",
+      "format": "a3r",
+      "file": "roofend.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoofEnd-textureReference",
+      "format": "a3t",
+      "file": "roofend.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "5021c50b-6de7-41b5-9177-f453a4dd4dfa",
+      "height": 120.0,
+      "width": 143.0,
+      "name": "RoofEnd.png",
+      "format": "image/png",
+      "file": "RoofEnd.png",
+      "type": "image"
+    },
+    {
+      "uuid": "8b00b0e2-a8b2-4180-afa1-2837c288de93",
+      "height": 120.0,
+      "width": 143.0,
+      "name": "RoofEnd_cls.png",
+      "format": "image/png",
+      "file": "RoofEnd_cls.png",
+      "type": "image"
+    }
+  ]
+}

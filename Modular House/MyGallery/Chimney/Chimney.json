@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.8238868,
+      -0.02489733,
+      -1.047965
+    ],
+    "max": [
+      0.8323486,
+      4.44698,
+      1.032426
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Chimney",
+      "idToResourceMap": {
+        "0": "Chimney-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Chimney",
+      "structure": "Chimney",
+      "textureSet": "Chimney",
+      "icon": "Chimney.png"
+    }
+  ],
+  "description": {
+    "name": "Chimney",
+    "icon": "Chimney_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:35:09-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Chimney",
+      "format": "a3r",
+      "file": "chimney.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Chimney-textureReference",
+      "format": "a3t",
+      "file": "chimney.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "c4dcba77-bc01-437f-9a97-b39ba6d9498e",
+      "height": 120.0,
+      "width": 61.0,
+      "name": "Chimney.png",
+      "format": "image/png",
+      "file": "Chimney.png",
+      "type": "image"
+    },
+    {
+      "uuid": "d291245b-c71e-4f8f-835a-9dc27b6bad3c",
+      "height": 120.0,
+      "width": 61.0,
+      "name": "Chimney_cls.png",
+      "format": "image/png",
+      "file": "Chimney_cls.png",
+      "type": "image"
+    }
+  ]
+}

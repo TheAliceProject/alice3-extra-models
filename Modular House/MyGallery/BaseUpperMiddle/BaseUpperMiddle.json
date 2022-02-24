@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -2.285902,
+      0.01147437,
+      -1.66362
+    ],
+    "max": [
+      2.285902,
+      2.865572,
+      1.66362
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "BaseUpperMiddle",
+      "idToResourceMap": {
+        "0": "BaseUpperMiddle-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "BaseUpperMiddle",
+      "structure": "BaseUpperMiddle",
+      "textureSet": "BaseUpperMiddle",
+      "icon": "BaseUpperMiddle.png"
+    }
+  ],
+  "description": {
+    "name": "BaseUpperMiddle",
+    "icon": "BaseUpperMiddle_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T12:35:31-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "BaseUpperMiddle",
+      "format": "a3r",
+      "file": "baseuppermiddle.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "BaseUpperMiddle-textureReference",
+      "format": "a3t",
+      "file": "baseuppermiddle.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "f4ac61e3-a9a0-4852-8c18-902ceb780623",
+      "height": 120.0,
+      "width": 146.0,
+      "name": "BaseUpperMiddle.png",
+      "format": "image/png",
+      "file": "BaseUpperMiddle.png",
+      "type": "image"
+    },
+    {
+      "uuid": "1c08f002-af7e-4b17-9e09-57983492c9f6",
+      "height": 120.0,
+      "width": 146.0,
+      "name": "BaseUpperMiddle_cls.png",
+      "format": "image/png",
+      "file": "BaseUpperMiddle_cls.png",
+      "type": "image"
+    }
+  ]
+}
