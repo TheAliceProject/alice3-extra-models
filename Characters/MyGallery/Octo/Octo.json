@@ -1,0 +1,592 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "Bone"
+  ],
+  "jointBounds": [
+    {
+      "name": "Bone",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          -0.37619072
+        ],
+        "max": [
+          0.25,
+          0.2500001,
+          0.12380929
+        ]
+      }
+    },
+    {
+      "name": "frontFoot1",
+      "bounds": {
+        "min": [
+          -0.08931098,
+          -0.087873936,
+          -0.231941
+        ],
+        "max": [
+          0.07913218,
+          0.080569215,
+          -0.019438494
+        ]
+      }
+    },
+    {
+      "name": "frontFoot2",
+      "bounds": {
+        "min": [
+          -0.08670059,
+          -0.085263595,
+          -0.280173
+        ],
+        "max": [
+          0.07652179,
+          0.07795876,
+          5.395535E-4
+        ]
+      }
+    },
+    {
+      "name": "frontFoot3",
+      "bounds": {
+        "min": [
+          -0.069814876,
+          -0.06837795,
+          -0.19614552
+        ],
+        "max": [
+          0.05963608,
+          0.06107304,
+          -0.0013378707
+        ]
+      }
+    },
+    {
+      "name": "frontFoot4",
+      "bounds": {
+        "min": [
+          -0.0588241,
+          -0.057387117,
+          -0.26534316
+        ],
+        "max": [
+          0.048645325,
+          0.050082292,
+          -4.702989E-4
+        ]
+      }
+    },
+    {
+      "name": "frontFoot5",
+      "bounds": {
+        "min": [
+          -0.05085028,
+          -0.049413305,
+          -0.2616086
+        ],
+        "max": [
+          0.040671468,
+          0.04210845,
+          5.501761E-4
+        ]
+      }
+    },
+    {
+      "name": "leftFoot1",
+      "bounds": {
+        "min": [
+          -0.08320959,
+          -0.08611421,
+          -0.23194101
+        ],
+        "max": [
+          0.08523356,
+          0.08232895,
+          -0.019438496
+        ]
+      }
+    },
+    {
+      "name": "leftFoot2",
+      "bounds": {
+        "min": [
+          -0.08059919,
+          -0.08350382,
+          -0.28017297
+        ],
+        "max": [
+          0.082623184,
+          0.07971856,
+          5.395657E-4
+        ]
+      }
+    },
+    {
+      "name": "leftFoot3",
+      "bounds": {
+        "min": [
+          -0.063713506,
+          -0.06661811,
+          -0.19614545
+        ],
+        "max": [
+          0.0657375,
+          0.06283284,
+          -0.0013379101
+        ]
+      }
+    },
+    {
+      "name": "leftFoot4",
+      "bounds": {
+        "min": [
+          -0.05272267,
+          -0.055627335,
+          -0.26534316
+        ],
+        "max": [
+          0.05474673,
+          0.051842097,
+          -4.7036828E-4
+        ]
+      }
+    },
+    {
+      "name": "leftFoot5",
+      "bounds": {
+        "min": [
+          -0.044748884,
+          -0.04765349,
+          -0.2616086
+        ],
+        "max": [
+          0.04677287,
+          0.043868247,
+          5.5024284E-4
+        ]
+      }
+    },
+    {
+      "name": "rightFoot1",
+      "bounds": {
+        "min": [
+          -0.08231076,
+          -0.08611418,
+          -0.23194101
+        ],
+        "max": [
+          0.08613244,
+          0.08232899,
+          0.16449635
+        ]
+      }
+    },
+    {
+      "name": "rightFoot2",
+      "bounds": {
+        "min": [
+          -0.07970036,
+          -0.08350382,
+          -0.28017303
+        ],
+        "max": [
+          0.08352205,
+          0.07971856,
+          5.3952914E-4
+        ]
+      }
+    },
+    {
+      "name": "rightFoot3",
+      "bounds": {
+        "min": [
+          -0.06281465,
+          -0.06661814,
+          -0.19614545
+        ],
+        "max": [
+          0.066636354,
+          0.062832825,
+          -0.00133791
+        ]
+      }
+    },
+    {
+      "name": "rightFoot4",
+      "bounds": {
+        "min": [
+          -0.051823843,
+          -0.055627357,
+          -0.26534328
+        ],
+        "max": [
+          0.05564552,
+          0.051842052,
+          -4.7036825E-4
+        ]
+      }
+    },
+    {
+      "name": "rightFoot5",
+      "bounds": {
+        "min": [
+          -0.043850027,
+          -0.047653537,
+          -0.2616086
+        ],
+        "max": [
+          0.04767175,
+          0.043868233,
+          5.501761E-4
+        ]
+      }
+    },
+    {
+      "name": "upperMouth",
+      "bounds": {
+        "min": [
+          -0.1713608,
+          -0.0322099,
+          -0.3792364
+        ],
+        "max": [
+          0.17136033,
+          0.043572053,
+          0.3024938
+        ]
+      }
+    },
+    {
+      "name": "lowerMouth",
+      "bounds": {
+        "min": [
+          -0.17136092,
+          -0.043136418,
+          -0.37928748
+        ],
+        "max": [
+          0.17136154,
+          0.032651603,
+          0.30244273
+        ]
+      }
+    },
+    {
+      "name": "rightEye",
+      "bounds": {
+        "min": [
+          -0.17649764,
+          -0.050122418,
+          -0.2030975
+        ],
+        "max": [
+          0.4498581,
+          0.5820033,
+          0.4290015
+        ]
+      }
+    },
+    {
+      "name": "leftEye",
+      "bounds": {
+        "min": [
+          -0.38575605,
+          -0.023034245,
+          -0.13935131
+        ],
+        "max": [
+          0.023579152,
+          0.023079352,
+          0.020294521
+        ]
+      }
+    },
+    {
+      "name": "frontFoot1_001",
+      "bounds": {
+        "min": [
+          -0.08149151,
+          -0.08787402,
+          -0.231941
+        ],
+        "max": [
+          0.08695169,
+          0.080569156,
+          -0.019438483
+        ]
+      }
+    },
+    {
+      "name": "frontFoot2_001",
+      "bounds": {
+        "min": [
+          -0.0788811,
+          -0.085263595,
+          -0.28017294
+        ],
+        "max": [
+          0.08434129,
+          0.07795875,
+          5.3955347E-4
+        ]
+      }
+    },
+    {
+      "name": "frontFoot3_001",
+      "bounds": {
+        "min": [
+          -0.061995402,
+          -0.06837794,
+          -0.19614545
+        ],
+        "max": [
+          0.06745555,
+          0.061073042,
+          -0.0013379098
+        ]
+      }
+    },
+    {
+      "name": "frontFoot4_001",
+      "bounds": {
+        "min": [
+          -0.05100462,
+          -0.057387106,
+          -0.26534325
+        ],
+        "max": [
+          0.056464773,
+          0.050082304,
+          -4.7037605E-4
+        ]
+      }
+    },
+    {
+      "name": "frontFoot5_001",
+      "bounds": {
+        "min": [
+          -0.0430308,
+          -0.0494133,
+          -0.2616086
+        ],
+        "max": [
+          0.04849096,
+          0.042108446,
+          5.50176E-4
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "Bone",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "frontFoot1",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot2",
+      "parent": "frontFoot1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot3",
+      "parent": "frontFoot2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot4",
+      "parent": "frontFoot3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot5",
+      "parent": "frontFoot4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "leftFoot1",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "leftFoot2",
+      "parent": "leftFoot1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "leftFoot3",
+      "parent": "leftFoot2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "leftFoot4",
+      "parent": "leftFoot3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "leftFoot5",
+      "parent": "leftFoot4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "rightFoot1",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "rightFoot2",
+      "parent": "rightFoot1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "rightFoot3",
+      "parent": "rightFoot2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "rightFoot4",
+      "parent": "rightFoot3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "rightFoot5",
+      "parent": "rightFoot4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "upperMouth",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "lowerMouth",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "rightEye",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "leftEye",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot1_001",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot2_001",
+      "parent": "frontFoot1_001",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot3_001",
+      "parent": "frontFoot2_001",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot4_001",
+      "parent": "frontFoot3_001",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "frontFoot5_001",
+      "parent": "frontFoot4_001",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.3131645,
+      -1.3824259,
+      -0.57970756
+    ],
+    "max": [
+      0.3131645,
+      0.31316423,
+      0.31316426
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Octo",
+      "idToResourceMap": {
+        "0": "Octo-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Octo",
+      "structure": "Octo",
+      "textureSet": "Octo",
+      "icon": "Octo.png"
+    }
+  ],
+  "description": {
+    "name": "Octo",
+    "icon": "Octo_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T15:26:08-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Octo",
+      "format": "a3r",
+      "file": "octo.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Octo-textureReference",
+      "format": "a3t",
+      "file": "octo.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "32122988-dfbc-4c93-8310-f589b2cddf91",
+      "height": 120.0,
+      "width": 63.0,
+      "name": "Octo.png",
+      "format": "image/png",
+      "file": "Octo.png",
+      "type": "image"
+    },
+    {
+      "uuid": "947a774f-67be-4cb8-8d23-aeb006d7bea2",
+      "height": 120.0,
+      "width": 63.0,
+      "name": "Octo_cls.png",
+      "format": "image/png",
+      "file": "Octo_cls.png",
+      "type": "image"
+    }
+  ]
+}

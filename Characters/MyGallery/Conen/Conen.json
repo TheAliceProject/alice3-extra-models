@@ -1,0 +1,292 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "MainBone"
+  ],
+  "jointBounds": [
+    {
+      "name": "MainBone",
+      "bounds": {
+        "min": [
+          -0.31138366,
+          -0.31138375,
+          -0.63138
+        ],
+        "max": [
+          0.31138384,
+          0.31138375,
+          0.058119074
+        ]
+      }
+    },
+    {
+      "name": "Eyeball",
+      "bounds": {
+        "min": [
+          -0.15276496,
+          -0.15157022,
+          -0.15468372
+        ],
+        "max": [
+          0.15276502,
+          0.15321067,
+          0.15009746
+        ]
+      }
+    },
+    {
+      "name": "UpperEyelid",
+      "bounds": {
+        "min": [
+          -0.1753574,
+          -0.053051867,
+          -0.17532405
+        ],
+        "max": [
+          0.17535734,
+          0.17222974,
+          0.16709852
+        ]
+      }
+    },
+    {
+      "name": "LowerEyelid",
+      "bounds": {
+        "min": [
+          -0.17539194,
+          -0.17417361,
+          -0.17749254
+        ],
+        "max": [
+          0.17539188,
+          0.037953917,
+          0.16937794
+        ]
+      }
+    },
+    {
+      "name": "RightUpperLeg",
+      "bounds": {
+        "min": [
+          -0.06410505,
+          -0.06323244,
+          -0.54537755
+        ],
+        "max": [
+          0.064105436,
+          0.064978115,
+          -0.04983772
+        ]
+      }
+    },
+    {
+      "name": "RightLowerLeg",
+      "bounds": {
+        "min": [
+          -0.021791717,
+          -0.019750183,
+          -0.41603717
+        ],
+        "max": [
+          0.02062304,
+          0.05471714,
+          -0.024022482
+        ]
+      }
+    },
+    {
+      "name": "RightFoot",
+      "bounds": {
+        "min": [
+          -0.08803916,
+          -0.031047614,
+          -0.17119366
+        ],
+        "max": [
+          0.09173202,
+          0.013974619,
+          0.07927982
+        ]
+      }
+    },
+    {
+      "name": "LeftUpperLeg",
+      "bounds": {
+        "min": [
+          -0.06410505,
+          -0.06441661,
+          -0.5453776
+        ],
+        "max": [
+          0.064105436,
+          0.063793935,
+          -0.04983777
+        ]
+      }
+    },
+    {
+      "name": "LeftLowerLeg",
+      "bounds": {
+        "min": [
+          -0.020061333,
+          -0.02453211,
+          -0.41603723
+        ],
+        "max": [
+          0.019438816,
+          0.044458173,
+          -0.04176412
+        ]
+      }
+    },
+    {
+      "name": "LeftFoot",
+      "bounds": {
+        "min": [
+          -0.08685495,
+          -0.031047674,
+          -0.17119366
+        ],
+        "max": [
+          0.092916235,
+          0.01397456,
+          0.07927982
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "MainBone",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "Eyeball",
+      "parent": "MainBone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "UpperEyelid",
+      "parent": "MainBone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LowerEyelid",
+      "parent": "MainBone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RightUpperLeg",
+      "parent": "MainBone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RightLowerLeg",
+      "parent": "RightUpperLeg",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "RightFoot",
+      "parent": "RightLowerLeg",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LeftUpperLeg",
+      "parent": "MainBone",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LeftLowerLeg",
+      "parent": "LeftUpperLeg",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "LeftFoot",
+      "parent": "LeftLowerLeg",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.31138384,
+      -0.02037059,
+      -0.31138375
+    ],
+    "max": [
+      0.31138366,
+      1.5528585,
+      0.31138375
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "Conen",
+      "idToResourceMap": {
+        "0": "Conen-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "Conen",
+      "structure": "Conen",
+      "textureSet": "Conen",
+      "icon": "Conen.png"
+    }
+  ],
+  "description": {
+    "name": "Conen",
+    "icon": "Conen_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T15:27:03-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "Conen",
+      "format": "a3r",
+      "file": "conen.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "Conen-textureReference",
+      "format": "a3t",
+      "file": "conen.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "16d4a255-1b44-40dd-8203-42640a5e80fb",
+      "height": 120.0,
+      "width": 73.0,
+      "name": "Conen.png",
+      "format": "image/png",
+      "file": "Conen.png",
+      "type": "image"
+    },
+    {
+      "uuid": "b3e50bdf-fa7d-4063-8c4a-2b960c6b90a2",
+      "height": 120.0,
+      "width": 73.0,
+      "name": "Conen_cls.png",
+      "format": "image/png",
+      "file": "Conen_cls.png",
+      "type": "image"
+    }
+  ]
+}

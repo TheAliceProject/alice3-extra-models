@@ -5,6 +5,9 @@
 ### BipedHero
 A minimal biped model to use as a starting point to create other biped models for import.
 
+### Characters
+Character models. They do not match any existing skeletons and can only come in a props.
+
 ### Hands
 A few models of hands and things to be held in those hands.
 
