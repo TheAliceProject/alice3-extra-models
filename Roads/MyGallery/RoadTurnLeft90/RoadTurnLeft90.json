@@ -8,44 +8,14 @@
       "name": "root",
       "bounds": {
         "min": [
-          -5.761284,
-          -9.899488,
-          -0.015247569
+          -10.00922,
+          -13.99999,
+          -0.004999999
         ],
         "max": [
-          3.9960697,
-          2.44E-6,
-          -0.00524757
-        ]
-      }
-    },
-    {
-      "name": "B2",
-      "bounds": {
-        "min": [
-          1.9621465,
-          0.006524251,
-          -2.7261996
-        ],
-        "max": [
-          1.9621465,
-          0.006524251,
-          -2.7261996
-        ]
-      }
-    },
-    {
-      "name": "B3",
-      "bounds": {
-        "min": [
-          1.9992433,
-          0.019908078,
-          -0.015044055
-        ],
-        "max": [
-          1.9992433,
-          0.019908078,
-          -0.015044055
+          3.9907799,
+          -2.9842387E-17,
+          0.0049999994
         ]
       }
     }
@@ -76,8 +46,23 @@
       "visibility": "PRIME_TIME"
     },
     {
-      "name": "nextTrackPiece",
+      "name": "A5",
       "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A6",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A7",
+      "parent": "A6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A7",
       "visibility": "PRIME_TIME"
     },
     {
@@ -94,6 +79,16 @@
       "name": "B3",
       "parent": "B2",
       "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
     }
   ],
   "additionalJointArrays": [],
@@ -101,43 +96,43 @@
   "poses": [],
   "boundingBox": {
     "min": [
-      -5.761284,
-      0.00524757,
-      -9.899488
+      -10.00922,
+      0.0050000004,
+      -13.99999
     ],
     "max": [
-      3.9960697,
-      0.0152491825,
-      2.442484E-6
+      3.9907799,
+      0.0150022805,
+      2.4438147E-9
     ]
   },
   "placeOnGround": true,
   "textureSets": [
     {
-      "name": "RoadTurnLeft45",
+      "name": "RoadTurnLeft90",
       "idToResourceMap": {
-        "0": "RoadTurnLeft45-textureReference"
+        "0": "RoadTurnLeft90-textureReference"
       }
     }
   ],
   "models": [
     {
-      "name": "RoadTurnLeft45",
-      "structure": "RoadTurnLeft45",
-      "textureSet": "RoadTurnLeft45",
-      "icon": "RoadTurnLeft45.png"
+      "name": "RoadTurnLeft90",
+      "structure": "RoadTurnLeft90",
+      "textureSet": "RoadTurnLeft90",
+      "icon": "RoadTurnLeft90.png"
     }
   ],
   "description": {
-    "name": "RoadTurnLeft45",
-    "icon": "RoadTurnLeft45_cls.png",
+    "name": "RoadTurnLeft90",
+    "icon": "RoadTurnLeft90_cls.png",
     "tags": [],
     "groupTags": [],
     "themeTags": []
   },
   "provenance": {
-    "aliceVersion": "3.6.0.2-rc.1+build.local",
-    "created": "2021-07-29T11:57:10-0400EDT",
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-23T19:41:30-0500EST",
     "creator": "xinhe"
   },
   "metadata": {
@@ -149,33 +144,33 @@
   "prerequisites": [],
   "resources": [
     {
-      "name": "RoadTurnLeft45",
+      "name": "RoadTurnLeft90",
       "format": "a3r",
-      "file": "roadturnleft45.a3r",
+      "file": "roadturnleft90.a3r",
       "type": "skeletonMesh"
     },
     {
-      "name": "RoadTurnLeft45-textureReference",
+      "name": "RoadTurnLeft90-textureReference",
       "format": "a3t",
-      "file": "roadturnleft45.a3t",
+      "file": "roadturnleft90.a3t",
       "type": "aliceTexture"
     },
     {
-      "uuid": "3e64b185-adc3-4d50-ae84-1a31e1cc04e7",
-      "height": 99.0,
+      "uuid": "96487dc8-edb5-47dc-bccc-23631e74dd53",
+      "height": 54.0,
       "width": 160.0,
-      "name": "RoadTurnLeft45.png",
+      "name": "RoadTurnLeft90.png",
       "format": "image/png",
-      "file": "RoadTurnLeft45.png",
+      "file": "RoadTurnLeft90.png",
       "type": "image"
     },
     {
-      "uuid": "0d098756-4923-47f1-97d0-7b6bf0d5dc24",
-      "height": 99.0,
+      "uuid": "304b68cf-8e2e-41af-b4d1-ac2a3a94b9e4",
+      "height": 54.0,
       "width": 160.0,
-      "name": "RoadTurnLeft45_cls.png",
+      "name": "RoadTurnLeft90_cls.png",
       "format": "image/png",
-      "file": "RoadTurnLeft45_cls.png",
+      "file": "RoadTurnLeft90_cls.png",
       "type": "image"
     }
   ]

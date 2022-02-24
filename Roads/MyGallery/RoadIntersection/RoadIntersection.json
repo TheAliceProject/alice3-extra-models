@@ -1,0 +1,267 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -9.9990425,
+          -2.655521E-4,
+          -0.16928527
+        ],
+        "max": [
+          9.998731,
+          19.999735,
+          0.14928783
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A5",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A6",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A7",
+      "parent": "A6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A7",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C2",
+      "parent": "C1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C3",
+      "parent": "C2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C4",
+      "parent": "C3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C5",
+      "parent": "C4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C6",
+      "parent": "C5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "C7",
+      "parent": "C6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPieceTurnA",
+      "parent": "C7",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D2",
+      "parent": "D1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D3",
+      "parent": "D2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D4",
+      "parent": "D3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D5",
+      "parent": "D4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D6",
+      "parent": "D5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "D7",
+      "parent": "D6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPieceTurnB",
+      "parent": "D7",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B6",
+      "parent": "B5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B7",
+      "parent": "B6",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -9.999997,
+      0.005314223,
+      -19.999737
+    ],
+    "max": [
+      10.000006,
+      0.015317512,
+      2.6655343E-4
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadIntersection",
+      "idToResourceMap": {
+        "0": "RoadIntersection-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadIntersection",
+      "structure": "RoadIntersection",
+      "textureSet": "RoadIntersection",
+      "icon": "RoadIntersection.png"
+    }
+  ],
+  "description": {
+    "name": "RoadIntersection",
+    "icon": "RoadIntersection_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-23T19:42:03-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadIntersection",
+      "format": "a3r",
+      "file": "roadintersection.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadIntersection-textureReference",
+      "format": "a3t",
+      "file": "roadintersection.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "7c62b9ac-6917-4b2c-bdaa-b6e21760848e",
+      "height": 92.0,
+      "width": 160.0,
+      "name": "RoadIntersection.png",
+      "format": "image/png",
+      "file": "RoadIntersection.png",
+      "type": "image"
+    },
+    {
+      "uuid": "2ed79893-1629-4bec-b49b-192b01f1d074",
+      "height": 92.0,
+      "width": 160.0,
+      "name": "RoadIntersection_cls.png",
+      "format": "image/png",
+      "file": "RoadIntersection_cls.png",
+      "type": "image"
+    }
+  ]
+}

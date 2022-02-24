@@ -1,0 +1,317 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -1.2240199E-15,
+          -2.822073,
+          -0.015034977
+        ],
+        "max": [
+          5.5024884E-8,
+          5.8048446E-9,
+          -0.0050335866
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          -1.9883006,
+          -0.013394585,
+          -2.8303056
+        ],
+        "max": [
+          2.0116308,
+          0.013298189,
+          0.008256358
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          -1.9931699,
+          -0.0031946066,
+          -2.2553449
+        ],
+        "max": [
+          2.006817,
+          0.013251633,
+          -2.2425597
+        ]
+      }
+    },
+    {
+      "name": "A3",
+      "bounds": {
+        "min": [
+          2.0011446,
+          -0.0027954527,
+          -1.5817823
+        ],
+        "max": [
+          2.0011554,
+          0.00720454,
+          -1.5817807
+        ]
+      }
+    },
+    {
+      "name": "A4",
+      "bounds": {
+        "min": [
+          1.9813651,
+          0.005482084,
+          -3.8147433
+        ],
+        "max": [
+          1.9945697,
+          0.01555145,
+          -0.99269146
+        ]
+      }
+    },
+    {
+      "name": "A5",
+      "bounds": {
+        "min": [
+          1.9814754,
+          -0.015520689,
+          0.012215079
+        ],
+        "max": [
+          1.9815294,
+          -0.00552083,
+          0.012217805
+        ]
+      }
+    },
+    {
+      "name": "nextTrackPiece",
+      "bounds": {
+        "min": [
+          -4.000011,
+          0.0032298905,
+          0.003015733
+        ],
+        "max": [
+          0.0012367294,
+          0.014999514,
+          2.8251007
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "bounds": {
+        "min": [
+          -1.9971654,
+          -0.0023217287,
+          -2.826866
+        ],
+        "max": [
+          2.0062096,
+          0.0076827835,
+          -0.004785292
+        ]
+      }
+    },
+    {
+      "name": "B2",
+      "bounds": {
+        "min": [
+          -1.9982522,
+          -0.0049995757,
+          -1.9079381
+        ],
+        "max": [
+          2.0017464,
+          0.0050004227,
+          -1.9079362
+        ]
+      }
+    },
+    {
+      "name": "B3",
+      "bounds": {
+        "min": [
+          2.0009446,
+          -0.0036580332,
+          -1.2614117
+        ],
+        "max": [
+          2.0009515,
+          0.0063419654,
+          -1.2614107
+        ]
+      }
+    },
+    {
+      "name": "B4",
+      "bounds": {
+        "min": [
+          1.9995147,
+          -0.004999289,
+          -3.3829005
+        ],
+        "max": [
+          1.999515,
+          0.005000717,
+          -0.5608304
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A5",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.9999998,
+      0.014999989,
+      -14.110374
+    ],
+    "max": [
+      4.0000005,
+      0.025002312,
+      2.9403773E-6
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadStraight1414",
+      "idToResourceMap": {
+        "0": "RoadStraight1414-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadStraight1414",
+      "structure": "RoadStraight1414",
+      "textureSet": "RoadStraight1414",
+      "icon": "RoadStraight1414.png"
+    }
+  ],
+  "description": {
+    "name": "RoadStraight1414",
+    "icon": "RoadStraight1414_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-18T12:07:10-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadStraight1414",
+      "format": "a3r",
+      "file": "roadstraight1414.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadStraight1414-textureReference",
+      "format": "a3t",
+      "file": "roadstraight1414.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "a9baf837-db58-42d4-a62c-4e193711f3ed",
+      "height": 118.0,
+      "width": 160.0,
+      "name": "RoadStraight1414.png",
+      "format": "image/png",
+      "file": "RoadStraight1414.png",
+      "type": "image"
+    },
+    {
+      "uuid": "99d9f002-0a52-4415-8433-9bb0b4330e86",
+      "height": 118.0,
+      "width": 160.0,
+      "name": "RoadStraight1414_cls.png",
+      "format": "image/png",
+      "file": "RoadStraight1414_cls.png",
+      "type": "image"
+    }
+  ]
+}

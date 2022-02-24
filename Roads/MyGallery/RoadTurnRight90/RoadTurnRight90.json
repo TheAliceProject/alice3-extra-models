@@ -1,0 +1,207 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -10.009221,
+          -7.245895E-7,
+          -0.0049999994
+        ],
+        "max": [
+          3.99078,
+          13.999988,
+          0.005000001
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          1.8364128,
+          5.769323E-4,
+          -1.9848112
+        ],
+        "max": [
+          1.9640418,
+          9.641895E-4,
+          -0.42370692
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          1.8097222,
+          -0.011825265,
+          -1.179483
+        ],
+        "max": [
+          2.1170425,
+          -0.010834341,
+          0.35638514
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B6",
+      "parent": "B5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B7",
+      "parent": "B6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A5",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.99078,
+      0.0049999994,
+      -13.999983
+    ],
+    "max": [
+      10.009229,
+      0.0150022805,
+      2.7343974E-6
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadTurnRight90",
+      "idToResourceMap": {
+        "0": "RoadTurnRight90-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadTurnRight90",
+      "structure": "RoadTurnRight90",
+      "textureSet": "RoadTurnRight90",
+      "icon": "RoadTurnRight90.png"
+    }
+  ],
+  "description": {
+    "name": "RoadTurnRight90",
+    "icon": "RoadTurnRight90_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-23T19:40:57-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadTurnRight90",
+      "format": "a3r",
+      "file": "roadturnright90.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadTurnRight90-textureReference",
+      "format": "a3t",
+      "file": "roadturnright90.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "bc6f0eda-766a-4a80-bcc5-4d708682c6f0",
+      "height": 120.0,
+      "width": 138.0,
+      "name": "RoadTurnRight90.png",
+      "format": "image/png",
+      "file": "RoadTurnRight90.png",
+      "type": "image"
+    },
+    {
+      "uuid": "a696c4d4-f68a-4865-babb-7b63e0a7d27b",
+      "height": 120.0,
+      "width": 138.0,
+      "name": "RoadTurnRight90_cls.png",
+      "format": "image/png",
+      "file": "RoadTurnRight90_cls.png",
+      "type": "image"
+    }
+  ]
+}

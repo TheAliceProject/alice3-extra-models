@@ -1,0 +1,157 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -3.9999998,
+          -9.999999,
+          -0.005004954
+        ],
+        "max": [
+          3.9999998,
+          2.4773894E-9,
+          0.005
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.9999998,
+      0.005,
+      -10.0
+    ],
+    "max": [
+      3.9999998,
+      0.015001629,
+      2.4438298E-9
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadStraight10",
+      "idToResourceMap": {
+        "0": "RoadStraight10-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadStraight10",
+      "structure": "RoadStraight10",
+      "textureSet": "RoadStraight10",
+      "icon": "RoadStraight10.png"
+    }
+  ],
+  "description": {
+    "name": "RoadStraight10",
+    "icon": "RoadStraight10_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-18T12:07:27-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadStraight10",
+      "format": "a3r",
+      "file": "roadstraight10.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadStraight10-textureReference",
+      "format": "a3t",
+      "file": "roadstraight10.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "ae7bc96c-fa68-44e6-aeff-824841e0e59a",
+      "height": 102.0,
+      "width": 160.0,
+      "name": "RoadStraight10.png",
+      "format": "image/png",
+      "file": "RoadStraight10.png",
+      "type": "image"
+    },
+    {
+      "uuid": "5286a9f0-a095-4e0b-b4d5-ec488568315b",
+      "height": 102.0,
+      "width": 160.0,
+      "name": "RoadStraight10_cls.png",
+      "format": "image/png",
+      "file": "RoadStraight10_cls.png",
+      "type": "image"
+    }
+  ]
+}

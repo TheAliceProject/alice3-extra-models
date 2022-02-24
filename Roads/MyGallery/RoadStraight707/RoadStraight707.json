@@ -1,0 +1,207 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -1.2240199E-15,
+          -3.5349998,
+          -0.015035334
+        ],
+        "max": [
+          1.4450634E-7,
+          5.8048446E-9,
+          -0.0050335866
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          -1.9863436,
+          -0.013402619,
+          -3.542673
+        ],
+        "max": [
+          2.013591,
+          0.013290252,
+          0.007699457
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          -1.9971397,
+          -0.0013639191,
+          -3.4357262
+        ],
+        "max": [
+          2.0028505,
+          0.011383269,
+          -3.4227154
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "bounds": {
+        "min": [
+          1.9995164,
+          -0.0049987677,
+          -7.0672975
+        ],
+        "max": [
+          1.9995168,
+          0.005001354,
+          -3.532297
+        ]
+      }
+    },
+    {
+      "name": "B3",
+      "bounds": {
+        "min": [
+          1.9995167,
+          -0.004998753,
+          7.090152
+        ],
+        "max": [
+          1.9995171,
+          0.0050012446,
+          7.0901527
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -4.0,
+      0.014999996,
+      -7.070001
+    ],
+    "max": [
+      4.0000005,
+      0.02500115,
+      7.30648E-7
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RoadStraight707",
+      "idToResourceMap": {
+        "0": "RoadStraight707-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RoadStraight707",
+      "structure": "RoadStraight707",
+      "textureSet": "RoadStraight707",
+      "icon": "RoadStraight707.png"
+    }
+  ],
+  "description": {
+    "name": "RoadStraight707",
+    "icon": "RoadStraight707_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-18T12:07:46-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RoadStraight707",
+      "format": "a3r",
+      "file": "roadstraight707.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RoadStraight707-textureReference",
+      "format": "a3t",
+      "file": "roadstraight707.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "ceba79ed-448f-4fb7-92e0-d699d35bf509",
+      "height": 86.0,
+      "width": 160.0,
+      "name": "RoadStraight707.png",
+      "format": "image/png",
+      "file": "RoadStraight707.png",
+      "type": "image"
+    },
+    {
+      "uuid": "156f1959-f58a-4055-ad36-6a1b3e177701",
+      "height": 86.0,
+      "width": 160.0,
+      "name": "RoadStraight707_cls.png",
+      "format": "image/png",
+      "file": "RoadStraight707_cls.png",
+      "type": "image"
+    }
+  ]
+}
