@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.194167,
+      -1.045491,
+      -1.183333
+    ],
+    "max": [
+      0.194167,
+      0.7514203,
+      -0.4127573
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkTripleThree",
+      "idToResourceMap": {
+        "0": "ExclamationMarkTripleThree-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkTripleThree",
+      "structure": "ExclamationMarkTripleThree",
+      "textureSet": "ExclamationMarkTripleThree",
+      "icon": "ExclamationMarkTripleThree.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkTripleThree",
+    "icon": "ExclamationMarkTripleThree_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:57:29-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkTripleThree",
+      "format": "a3r",
+      "file": "exclamationmarktriplethree.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkTripleThree-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarktriplethree.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "7519535d-4162-4beb-9d36-3a31d14f54e1",
+      "height": 120.0,
+      "width": 41.0,
+      "name": "ExclamationMarkTripleThree.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTripleThree.png",
+      "type": "image"
+    },
+    {
+      "uuid": "65d905ca-9995-46d6-a8d3-649c04113956",
+      "height": 120.0,
+      "width": 41.0,
+      "name": "ExclamationMarkTripleThree_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTripleThree_cls.png",
+      "type": "image"
+    }
+  ]
+}

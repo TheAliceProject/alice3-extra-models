@@ -1,0 +1,132 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "Bone"
+  ],
+  "jointBounds": [
+    {
+      "name": "Bone",
+      "bounds": {
+        "min": [
+          -0.23553593,
+          -0.2788881,
+          -0.31050327
+        ],
+        "max": [
+          0.23553555,
+          0.3242663,
+          0.28290752
+        ]
+      }
+    },
+    {
+      "name": "BoneFBXASC046001",
+      "bounds": {
+        "min": [
+          -0.25739542,
+          0.09422871,
+          -0.7877919
+        ],
+        "max": [
+          0.26199892,
+          2.2378862,
+          1.0453625
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "Bone",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "BoneFBXASC046001",
+      "parent": "Bone",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.0017158,
+      -1.5796231,
+      -0.25739542
+    ],
+    "max": [
+      0.8316733,
+      1.3259363,
+      0.26199892
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "QuestionMark",
+      "idToResourceMap": {
+        "0": "QuestionMark-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "QuestionMark",
+      "structure": "QuestionMark",
+      "textureSet": "QuestionMark",
+      "icon": "QuestionMark.png"
+    }
+  ],
+  "description": {
+    "name": "QuestionMark",
+    "icon": "QuestionMark_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:48:54-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "QuestionMark",
+      "format": "a3r",
+      "file": "questionmark.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "QuestionMark-textureReference",
+      "format": "a3t",
+      "file": "questionmark.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "b25794e4-ff0b-4938-b472-318fa7cded2b",
+      "height": 120.0,
+      "width": 85.0,
+      "name": "QuestionMark.png",
+      "format": "image/png",
+      "file": "QuestionMark.png",
+      "type": "image"
+    },
+    {
+      "uuid": "4d879107-7fb8-4c57-a695-29c510e8ff81",
+      "height": 120.0,
+      "width": 85.0,
+      "name": "QuestionMark_cls.png",
+      "format": "image/png",
+      "file": "QuestionMark_cls.png",
+      "type": "image"
+    }
+  ]
+}

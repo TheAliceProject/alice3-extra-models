@@ -1,5 +1,24 @@
 # alice3-extra-models
 
-`/SourceModels` Additional models in importable form - daes and textures
+## Models to expand the Alice gallery
 
-`/ImportedForMyGallery` Model folders that are successful imports of the. source models. Any or all of these can be dropped into MyGallery.
+### Interaction Symbols
+Marks that could be shown above models to express themselves.
+There are various forms to suit individual style.
+
+### Roads
+Models of two lane roads. The joint nextTrackPiece enables them to connect smoothly together.
+Each model has a sequence of numbered joints for the lanes, A1, A2… and B1, B2…
+
+### Switches
+Buttons and levers with moving parts that can be interacted with
+
+## Subdirectories
+
+- `SourceModels` The models in importable form - daes and textures.
+
+- `MyGallery` Model folders that are successful imports of the source models. These can be dropped into MyGallery and used the next time Alice is opened.
+
+- `SampleWorlds` Demonstrations of the models in action.
+
+- `Resources` Things used in the building process, such as blender files, alternative representations, or other relevant, but not required files.

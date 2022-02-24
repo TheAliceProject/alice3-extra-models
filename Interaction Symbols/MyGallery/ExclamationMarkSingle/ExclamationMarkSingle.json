@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2916977,
+      -1.617493,
+      -0.4067704
+    ],
+    "max": [
+      0.2916977,
+      1.111704,
+      0.4325553
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkSingle",
+      "idToResourceMap": {
+        "0": "ExclamationMarkSingle-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkSingle",
+      "structure": "ExclamationMarkSingle",
+      "textureSet": "ExclamationMarkSingle",
+      "icon": "ExclamationMarkSingle.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkSingle",
+    "icon": "ExclamationMarkSingle_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:56:22-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkSingle",
+      "format": "a3r",
+      "file": "exclamationmarksingle.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkSingle-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarksingle.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "2ccbbca5-65a7-41f7-814b-51d3232f1f9d",
+      "height": 120.0,
+      "width": 33.0,
+      "name": "ExclamationMarkSingle.png",
+      "format": "image/png",
+      "file": "ExclamationMarkSingle.png",
+      "type": "image"
+    },
+    {
+      "uuid": "dac70c73-a0f5-43d1-9b76-7a0134d321dc",
+      "height": 120.0,
+      "width": 33.0,
+      "name": "ExclamationMarkSingle_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkSingle_cls.png",
+      "type": "image"
+    }
+  ]
+}

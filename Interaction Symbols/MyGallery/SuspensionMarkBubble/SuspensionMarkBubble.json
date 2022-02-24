@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2647791,
+      -1.638096,
+      -1.403922
+    ],
+    "max": [
+      0.2561829,
+      0.8900087,
+      1.398014
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "SuspensionMarkBubble",
+      "idToResourceMap": {
+        "0": "SuspensionMarkBubble-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "SuspensionMarkBubble",
+      "structure": "SuspensionMarkBubble",
+      "textureSet": "SuspensionMarkBubble",
+      "icon": "SuspensionMarkBubble.png"
+    }
+  ],
+  "description": {
+    "name": "SuspensionMarkBubble",
+    "icon": "SuspensionMarkBubble_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:54:02-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "SuspensionMarkBubble",
+      "format": "a3r",
+      "file": "suspensionmarkbubble.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "SuspensionMarkBubble-textureReference",
+      "format": "a3t",
+      "file": "suspensionmarkbubble.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "f97a6f1a-037b-4b9c-a20d-f520b894ea17",
+      "height": 120.0,
+      "width": 67.0,
+      "name": "SuspensionMarkBubble.png",
+      "format": "image/png",
+      "file": "SuspensionMarkBubble.png",
+      "type": "image"
+    },
+    {
+      "uuid": "24e5f335-432d-4ac6-ac57-a0a34f35c0fb",
+      "height": 120.0,
+      "width": 67.0,
+      "name": "SuspensionMarkBubble_cls.png",
+      "format": "image/png",
+      "file": "SuspensionMarkBubble_cls.png",
+      "type": "image"
+    }
+  ]
+}

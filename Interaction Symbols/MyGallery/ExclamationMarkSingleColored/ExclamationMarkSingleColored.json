@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2916977,
+      -1.617493,
+      -0.4067704
+    ],
+    "max": [
+      0.2916977,
+      1.111704,
+      0.4325553
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkSingleColored",
+      "idToResourceMap": {
+        "0": "ExclamationMarkSingleColored-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkSingleColored",
+      "structure": "ExclamationMarkSingleColored",
+      "textureSet": "ExclamationMarkSingleColored",
+      "icon": "ExclamationMarkSingleColored.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkSingleColored",
+    "icon": "ExclamationMarkSingleColored_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:56:38-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkSingleColored",
+      "format": "a3r",
+      "file": "exclamationmarksinglecolored.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkSingleColored-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarksinglecolored.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "875a7bf3-1a96-4dcb-b244-e02d1142b146",
+      "height": 120.0,
+      "width": 32.0,
+      "name": "ExclamationMarkSingleColored.png",
+      "format": "image/png",
+      "file": "ExclamationMarkSingleColored.png",
+      "type": "image"
+    },
+    {
+      "uuid": "92f1a15e-da35-4208-aed2-8cf0cbec85fd",
+      "height": 120.0,
+      "width": 32.0,
+      "name": "ExclamationMarkSingleColored_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkSingleColored_cls.png",
+      "type": "image"
+    }
+  ]
+}

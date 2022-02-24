@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2986752,
+      -0.2949525,
+      0.5168505
+    ],
+    "max": [
+      0.2986752,
+      0.3337808,
+      1.122941
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "SuspensionMarkDotOne",
+      "idToResourceMap": {
+        "0": "SuspensionMarkDotOne-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "SuspensionMarkDotOne",
+      "structure": "SuspensionMarkDotOne",
+      "textureSet": "SuspensionMarkDotOne",
+      "icon": "SuspensionMarkDotOne.png"
+    }
+  ],
+  "description": {
+    "name": "SuspensionMarkDotOne",
+    "icon": "SuspensionMarkDotOne_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:54:35-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "SuspensionMarkDotOne",
+      "format": "a3r",
+      "file": "suspensionmarkdotone.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "SuspensionMarkDotOne-textureReference",
+      "format": "a3t",
+      "file": "suspensionmarkdotone.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "95fc275b-fd3b-4cee-8e5b-6f527e744c9f",
+      "height": 120.0,
+      "width": 107.0,
+      "name": "SuspensionMarkDotOne.png",
+      "format": "image/png",
+      "file": "SuspensionMarkDotOne.png",
+      "type": "image"
+    },
+    {
+      "uuid": "1ee16563-f9ab-4b05-922b-b87ced480c13",
+      "height": 120.0,
+      "width": 107.0,
+      "name": "SuspensionMarkDotOne_cls.png",
+      "format": "image/png",
+      "file": "SuspensionMarkDotOne_cls.png",
+      "type": "image"
+    }
+  ]
+}

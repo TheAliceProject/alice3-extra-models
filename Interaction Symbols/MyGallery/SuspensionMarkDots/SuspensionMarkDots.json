@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.3073799,
+      -0.3232626,
+      -1.145398
+    ],
+    "max": [
+      0.2986752,
+      0.3337808,
+      1.122941
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "SuspensionMarkDots",
+      "idToResourceMap": {
+        "0": "SuspensionMarkDots-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "SuspensionMarkDots",
+      "structure": "SuspensionMarkDots",
+      "textureSet": "SuspensionMarkDots",
+      "icon": "SuspensionMarkDots.png"
+    }
+  ],
+  "description": {
+    "name": "SuspensionMarkDots",
+    "icon": "SuspensionMarkDots_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:54:25-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "SuspensionMarkDots",
+      "format": "a3r",
+      "file": "suspensionmarkdots.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "SuspensionMarkDots-textureReference",
+      "format": "a3t",
+      "file": "suspensionmarkdots.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "80251b8f-908c-4f58-a05d-0ce99b00076f",
+      "height": 120.0,
+      "width": 88.0,
+      "name": "SuspensionMarkDots.png",
+      "format": "image/png",
+      "file": "SuspensionMarkDots.png",
+      "type": "image"
+    },
+    {
+      "uuid": "7e048b9e-93e6-454a-afdb-7ecc98b8f5df",
+      "height": 120.0,
+      "width": 88.0,
+      "name": "SuspensionMarkDots_cls.png",
+      "format": "image/png",
+      "file": "SuspensionMarkDots_cls.png",
+      "type": "image"
+    }
+  ]
+}

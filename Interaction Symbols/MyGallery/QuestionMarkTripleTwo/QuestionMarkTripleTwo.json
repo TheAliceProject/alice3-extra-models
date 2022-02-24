@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2620008,
+      -1.579623,
+      -1.001756
+    ],
+    "max": [
+      0.2573949,
+      1.325965,
+      0.8316726
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "QuestionMarkTripleTwo",
+      "idToResourceMap": {
+        "0": "QuestionMarkTripleTwo-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "QuestionMarkTripleTwo",
+      "structure": "QuestionMarkTripleTwo",
+      "textureSet": "QuestionMarkTripleTwo",
+      "icon": "QuestionMarkTripleTwo.png"
+    }
+  ],
+  "description": {
+    "name": "QuestionMarkTripleTwo",
+    "icon": "QuestionMarkTripleTwo_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:47:07-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "QuestionMarkTripleTwo",
+      "format": "a3r",
+      "file": "questionmarktripletwo.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "QuestionMarkTripleTwo-textureReference",
+      "format": "a3t",
+      "file": "questionmarktripletwo.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "4f21c87a-5bf9-4b6f-9f97-fb40f3d84d9e",
+      "height": 120.0,
+      "width": 47.0,
+      "name": "QuestionMarkTripleTwo.png",
+      "format": "image/png",
+      "file": "QuestionMarkTripleTwo.png",
+      "type": "image"
+    },
+    {
+      "uuid": "1fe0a28b-12b8-4850-a79e-44d9f3297bb1",
+      "height": 120.0,
+      "width": 47.0,
+      "name": "QuestionMarkTripleTwo_cls.png",
+      "format": "image/png",
+      "file": "QuestionMarkTripleTwo_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2916977,
+      -1.617493,
+      -1.183333
+    ],
+    "max": [
+      0.2916977,
+      1.111704,
+      1.204246
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkTripleBW",
+      "idToResourceMap": {
+        "0": "ExclamationMarkTripleBW-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkTripleBW",
+      "structure": "ExclamationMarkTripleBW",
+      "textureSet": "ExclamationMarkTripleBW",
+      "icon": "ExclamationMarkTripleBW.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkTripleBW",
+    "icon": "ExclamationMarkTripleBW_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:57:51-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkTripleBW",
+      "format": "a3r",
+      "file": "exclamationmarktriplebw.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkTripleBW-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarktriplebw.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "9a927657-5a03-4dd9-aaf0-6cfa9dca8135",
+      "height": 120.0,
+      "width": 51.0,
+      "name": "ExclamationMarkTripleBW.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTripleBW.png",
+      "type": "image"
+    },
+    {
+      "uuid": "bd95d9b1-e185-4455-bb0f-aec505c4aaee",
+      "height": 120.0,
+      "width": 51.0,
+      "name": "ExclamationMarkTripleBW_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTripleBW_cls.png",
+      "type": "image"
+    }
+  ]
+}

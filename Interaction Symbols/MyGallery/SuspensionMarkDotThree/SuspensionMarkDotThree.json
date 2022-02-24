@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.3073799,
+      -0.3232626,
+      -1.145398
+    ],
+    "max": [
+      0.2899705,
+      0.2963759,
+      -0.5351703
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "SuspensionMarkDotThree",
+      "idToResourceMap": {
+        "0": "SuspensionMarkDotThree-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "SuspensionMarkDotThree",
+      "structure": "SuspensionMarkDotThree",
+      "textureSet": "SuspensionMarkDotThree",
+      "icon": "SuspensionMarkDotThree.png"
+    }
+  ],
+  "description": {
+    "name": "SuspensionMarkDotThree",
+    "icon": "SuspensionMarkDotThree_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:55:02-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "SuspensionMarkDotThree",
+      "format": "a3r",
+      "file": "suspensionmarkdotthree.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "SuspensionMarkDotThree-textureReference",
+      "format": "a3t",
+      "file": "suspensionmarkdotthree.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "61ac7a9d-ade0-4b81-8eeb-b62e8382ca7a",
+      "height": 120.0,
+      "width": 115.0,
+      "name": "SuspensionMarkDotThree.png",
+      "format": "image/png",
+      "file": "SuspensionMarkDotThree.png",
+      "type": "image"
+    },
+    {
+      "uuid": "26ff07ef-3174-44d0-99fd-f8de8c985175",
+      "height": 120.0,
+      "width": 115.0,
+      "name": "SuspensionMarkDotThree_cls.png",
+      "format": "image/png",
+      "file": "SuspensionMarkDotThree_cls.png",
+      "type": "image"
+    }
+  ]
+}

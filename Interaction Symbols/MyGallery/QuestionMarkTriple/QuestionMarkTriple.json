@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2620008,
+      -1.579623,
+      -2.454346
+    ],
+    "max": [
+      0.2573949,
+      1.325965,
+      2.023449
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "QuestionMarkTriple",
+      "idToResourceMap": {
+        "0": "QuestionMarkTriple-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "QuestionMarkTriple",
+      "structure": "QuestionMarkTriple",
+      "textureSet": "QuestionMarkTriple",
+      "icon": "QuestionMarkTriple.png"
+    }
+  ],
+  "description": {
+    "name": "QuestionMarkTriple",
+    "icon": "QuestionMarkTriple_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:47:29-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "QuestionMarkTriple",
+      "format": "a3r",
+      "file": "questionmarktriple.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "QuestionMarkTriple-textureReference",
+      "format": "a3t",
+      "file": "questionmarktriple.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "4d579a1d-d229-4f43-9abf-d50dfde8638c",
+      "height": 120.0,
+      "width": 72.0,
+      "name": "QuestionMarkTriple.png",
+      "format": "image/png",
+      "file": "QuestionMarkTriple.png",
+      "type": "image"
+    },
+    {
+      "uuid": "e6794323-49c1-4114-9c12-6b132cf9896f",
+      "height": 120.0,
+      "width": 72.0,
+      "name": "QuestionMarkTriple_cls.png",
+      "format": "image/png",
+      "file": "QuestionMarkTriple_cls.png",
+      "type": "image"
+    }
+  ]
+}

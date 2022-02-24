@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.1999577,
+      -1.332888,
+      -2.454346
+    ],
+    "max": [
+      0.1964426,
+      0.7762157,
+      -0.9221869
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "QuestionMarkTripleThree",
+      "idToResourceMap": {
+        "0": "QuestionMarkTripleThree-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "QuestionMarkTripleThree",
+      "structure": "QuestionMarkTripleThree",
+      "textureSet": "QuestionMarkTripleThree",
+      "icon": "QuestionMarkTripleThree.png"
+    }
+  ],
+  "description": {
+    "name": "QuestionMarkTripleThree",
+    "icon": "QuestionMarkTripleThree_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:46:49-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "QuestionMarkTripleThree",
+      "format": "a3r",
+      "file": "questionmarktriplethree.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "QuestionMarkTripleThree-textureReference",
+      "format": "a3t",
+      "file": "questionmarktriplethree.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "875da8d7-2f87-4f06-92f5-e86c7a7bb9e7",
+      "height": 120.0,
+      "width": 61.0,
+      "name": "QuestionMarkTripleThree.png",
+      "format": "image/png",
+      "file": "QuestionMarkTripleThree.png",
+      "type": "image"
+    },
+    {
+      "uuid": "d12e68a4-c5b1-482f-ab69-19e5e092168e",
+      "height": 120.0,
+      "width": 61.0,
+      "name": "QuestionMarkTripleThree_cls.png",
+      "format": "image/png",
+      "file": "QuestionMarkTripleThree_cls.png",
+      "type": "image"
+    }
+  ]
+}

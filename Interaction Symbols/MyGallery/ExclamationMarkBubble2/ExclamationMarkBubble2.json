@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2746567,
+      -1.839038,
+      -1.40824
+    ],
+    "max": [
+      0.2746567,
+      1.377508,
+      1.096025
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkBubble2",
+      "idToResourceMap": {
+        "0": "ExclamationMarkBubble2-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkBubble2",
+      "structure": "ExclamationMarkBubble2",
+      "textureSet": "ExclamationMarkBubble2",
+      "icon": "ExclamationMarkBubble2.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkBubble2",
+    "icon": "ExclamationMarkBubble2_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:55:49-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkBubble2",
+      "format": "a3r",
+      "file": "exclamationmarkbubble2.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkBubble2-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarkbubble2.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "40fbc7c2-9d4c-44e2-a1ea-44f9c4f330ab",
+      "height": 120.0,
+      "width": 50.0,
+      "name": "ExclamationMarkBubble2.png",
+      "format": "image/png",
+      "file": "ExclamationMarkBubble2.png",
+      "type": "image"
+    },
+    {
+      "uuid": "60daf921-30ae-45b7-b63e-c07066524dc2",
+      "height": 120.0,
+      "width": 50.0,
+      "name": "ExclamationMarkBubble2_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkBubble2_cls.png",
+      "type": "image"
+    }
+  ]
+}

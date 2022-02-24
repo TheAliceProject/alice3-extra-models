@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2916977,
+      -1.617493,
+      -1.183333
+    ],
+    "max": [
+      0.2916977,
+      1.111704,
+      1.204246
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkTriple",
+      "idToResourceMap": {
+        "0": "ExclamationMarkTriple-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkTriple",
+      "structure": "ExclamationMarkTriple",
+      "textureSet": "ExclamationMarkTriple",
+      "icon": "ExclamationMarkTriple.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkTriple",
+    "icon": "ExclamationMarkTriple_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:56:56-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkTriple",
+      "format": "a3r",
+      "file": "exclamationmarktriple.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkTriple-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarktriple.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "e6b3c636-0fdd-49cf-b5ea-a4b1757c031f",
+      "height": 120.0,
+      "width": 50.0,
+      "name": "ExclamationMarkTriple.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTriple.png",
+      "type": "image"
+    },
+    {
+      "uuid": "f56d21a4-f8fa-4aeb-824c-b127f32b3169",
+      "height": 120.0,
+      "width": 50.0,
+      "name": "ExclamationMarkTriple_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTriple_cls.png",
+      "type": "image"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -0.2916977,
+      -1.617493,
+      -0.4067704
+    ],
+    "max": [
+      0.2916977,
+      1.111704,
+      0.4325553
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "ExclamationMarkTripleTwo",
+      "idToResourceMap": {
+        "0": "ExclamationMarkTripleTwo-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "ExclamationMarkTripleTwo",
+      "structure": "ExclamationMarkTripleTwo",
+      "textureSet": "ExclamationMarkTripleTwo",
+      "icon": "ExclamationMarkTripleTwo.png"
+    }
+  ],
+  "description": {
+    "name": "ExclamationMarkTripleTwo",
+    "icon": "ExclamationMarkTripleTwo_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T10:57:17-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "ExclamationMarkTripleTwo",
+      "format": "a3r",
+      "file": "exclamationmarktripletwo.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "ExclamationMarkTripleTwo-textureReference",
+      "format": "a3t",
+      "file": "exclamationmarktripletwo.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "ceeb3a44-0300-4843-8122-81ff62423506",
+      "height": 120.0,
+      "width": 31.0,
+      "name": "ExclamationMarkTripleTwo.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTripleTwo.png",
+      "type": "image"
+    },
+    {
+      "uuid": "517248cb-bda0-4f54-8634-8fcb81aa3264",
+      "height": 120.0,
+      "width": 31.0,
+      "name": "ExclamationMarkTripleTwo_cls.png",
+      "format": "image/png",
+      "file": "ExclamationMarkTripleTwo_cls.png",
+      "type": "image"
+    }
+  ]
+}
