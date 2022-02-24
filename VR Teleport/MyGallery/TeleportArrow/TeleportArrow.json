@@ -14,37 +14,37 @@
     ],
     "max": [
       1.123171,
-      0.2899988,
+      1.063584,
       1.123171
     ]
   },
   "placeOnGround": true,
   "textureSets": [
     {
-      "name": "SpotShoes",
+      "name": "TeleportArrow",
       "idToResourceMap": {
-        "0": "SpotShoes-textureReference"
+        "0": "TeleportArrow-textureReference"
       }
     }
   ],
   "models": [
     {
-      "name": "SpotShoes",
-      "structure": "SpotShoes",
-      "textureSet": "SpotShoes",
-      "icon": "SpotShoes.png"
+      "name": "TeleportArrow",
+      "structure": "TeleportArrow",
+      "textureSet": "TeleportArrow",
+      "icon": "TeleportArrow.png"
     }
   ],
   "description": {
-    "name": "SpotShoes",
-    "icon": "SpotShoes_cls.png",
+    "name": "TeleportArrow",
+    "icon": "TeleportArrow_cls.png",
     "tags": [],
     "groupTags": [],
     "themeTags": []
   },
   "provenance": {
     "aliceVersion": "3.6.1.0-alpha+build.local",
-    "created": "2022-02-17T17:01:03-0500EST",
+    "created": "2022-02-24T11:39:10-0500EST",
     "creator": "xinhe"
   },
   "metadata": {
@@ -56,33 +56,33 @@
   "prerequisites": [],
   "resources": [
     {
-      "name": "SpotShoes",
+      "name": "TeleportArrow",
       "format": "a3r",
-      "file": "spotshoes.a3r",
+      "file": "teleportarrow.a3r",
       "type": "skeletonMesh"
     },
     {
-      "name": "SpotShoes-textureReference",
+      "name": "TeleportArrow-textureReference",
       "format": "a3t",
-      "file": "spotshoes.a3t",
+      "file": "teleportarrow.a3t",
       "type": "aliceTexture"
     },
     {
-      "uuid": "72276850-9673-443d-aa1d-eee57c96eb7d",
-      "height": 103.0,
-      "width": 160.0,
-      "name": "SpotShoes.png",
+      "uuid": "5f8fecc4-adc6-43ee-9c1a-834b73dd2522",
+      "height": 120.0,
+      "width": 138.0,
+      "name": "TeleportArrow.png",
       "format": "image/png",
-      "file": "SpotShoes.png",
+      "file": "TeleportArrow.png",
       "type": "image"
     },
     {
-      "uuid": "8c6574f6-0ee7-45ce-9028-2fa3f7c78afc",
-      "height": 103.0,
-      "width": 160.0,
-      "name": "SpotShoes_cls.png",
+      "uuid": "56ef9bbc-6410-4c61-9e55-bde9ff9eb71b",
+      "height": 120.0,
+      "width": 138.0,
+      "name": "TeleportArrow_cls.png",
       "format": "image/png",
-      "file": "SpotShoes_cls.png",
+      "file": "TeleportArrow_cls.png",
       "type": "image"
     }
   ]

@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.123171,
+      -0.2350795,
+      -1.123171
+    ],
+    "max": [
+      1.123171,
+      1.295241,
+      1.123171
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "TeleportHand",
+      "idToResourceMap": {
+        "0": "TeleportHand-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "TeleportHand",
+      "structure": "TeleportHand",
+      "textureSet": "TeleportHand",
+      "icon": "TeleportHand.png"
+    }
+  ],
+  "description": {
+    "name": "TeleportHand",
+    "icon": "TeleportHand_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T11:39:33-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "TeleportHand",
+      "format": "a3r",
+      "file": "teleporthand.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "TeleportHand-textureReference",
+      "format": "a3t",
+      "file": "teleporthand.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "243c1fd5-746e-4720-9dcb-261ef6e7b9f5",
+      "height": 120.0,
+      "width": 124.0,
+      "name": "TeleportHand.png",
+      "format": "image/png",
+      "file": "TeleportHand.png",
+      "type": "image"
+    },
+    {
+      "uuid": "af463404-4b36-4d99-8297-0964795cce7a",
+      "height": 120.0,
+      "width": 124.0,
+      "name": "TeleportHand_cls.png",
+      "format": "image/png",
+      "file": "TeleportHand_cls.png",
+      "type": "image"
+    }
+  ]
+}

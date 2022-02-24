@@ -16,6 +16,9 @@ Each model has a sequence of numbered joints for the lanes, A1, A2… and B1, B2
 ### Switches
 Buttons and levers with moving parts that can be interacted with
 
+### VR Teleport
+Targets to select in VR and then teleport the user to.
+
 ## Subdirectories
 
 - `SourceModels` The models in importable form - daes and textures.

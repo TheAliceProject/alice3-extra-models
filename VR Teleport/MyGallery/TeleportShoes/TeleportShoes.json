@@ -1,0 +1,89 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [],
+  "jointBounds": [],
+  "additionalJoints": [],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -1.123171,
+      -0.2350795,
+      -1.123171
+    ],
+    "max": [
+      1.123171,
+      0.2899988,
+      1.123171
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "TeleportShoes",
+      "idToResourceMap": {
+        "0": "TeleportShoes-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "TeleportShoes",
+      "structure": "TeleportShoes",
+      "textureSet": "TeleportShoes",
+      "icon": "TeleportShoes.png"
+    }
+  ],
+  "description": {
+    "name": "TeleportShoes",
+    "icon": "TeleportShoes_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T11:39:50-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "TeleportShoes",
+      "format": "a3r",
+      "file": "teleportshoes.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "TeleportShoes-textureReference",
+      "format": "a3t",
+      "file": "teleportshoes.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "35fbe056-c4b6-4abf-8f57-81d4a1807301",
+      "height": 99.0,
+      "width": 160.0,
+      "name": "TeleportShoes.png",
+      "format": "image/png",
+      "file": "TeleportShoes.png",
+      "type": "image"
+    },
+    {
+      "uuid": "6730e65d-52a7-4342-bad6-5a4c12848cdd",
+      "height": 99.0,
+      "width": 160.0,
+      "name": "TeleportShoes_cls.png",
+      "format": "image/png",
+      "file": "TeleportShoes_cls.png",
+      "type": "image"
+    }
+  ]
+}
