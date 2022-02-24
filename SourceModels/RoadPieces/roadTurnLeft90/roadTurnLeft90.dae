@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2020-10-06T12:27:18</created>
+    <modified>2020-10-06T12:27:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="roadTurnLeft90_png_001" name="roadTurnLeft90_png_001">
+      <init_from>/C:/Users/xinhe/Desktop/New%20folder/NameFix/RoadSegment/roadTurnLeft90/roadTurnLeft90.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="file1-effect">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="file1"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_001-effect">
+      <profile_COMMON>
+        <newparam sid="file1_001-surface">
+          <surface type="2D">
+            <init_from>file1_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_001-sampler">
+          <sampler2D>
+            <source>file1_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_001-sampler" texcoord="file1_001"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_003-effect">
+      <profile_COMMON>
+        <newparam sid="file1_003-surface">
+          <surface type="2D">
+            <init_from>file1_003</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_003-sampler">
+          <sampler2D>
+            <source>file1_003-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_003-sampler" texcoord="file1_003"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_004-effect">
+      <profile_COMMON>
+        <newparam sid="file1_004-surface">
+          <surface type="2D">
+            <init_from>file1_004</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_004-sampler">
+          <sampler2D>
+            <source>file1_004-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_004-sampler" texcoord="file1_004"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_005-effect">
+      <profile_COMMON>
+        <newparam sid="file1_005-surface">
+          <surface type="2D">
+            <init_from>file1_005</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_005-sampler">
+          <sampler2D>
+            <source>file1_005-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_005-sampler" texcoord="file1_005"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_008-effect">
+      <profile_COMMON>
+        <newparam sid="file1_008-surface">
+          <surface type="2D">
+            <init_from>file1_008</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_008-sampler">
+          <sampler2D>
+            <source>file1_008-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_008-sampler" texcoord="file1_008"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_009-effect">
+      <profile_COMMON>
+        <newparam sid="file1_009-surface">
+          <surface type="2D">
+            <init_from>file1_009</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_009-sampler">
+          <sampler2D>
+            <source>file1_009-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_009-sampler" texcoord="file1_009"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="file1_012-effect">
+      <profile_COMMON>
+        <newparam sid="file1_012-surface">
+          <surface type="2D">
+            <init_from>file1_012</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1_012-sampler">
+          <sampler2D>
+            <source>file1_012-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="file1_012-sampler" texcoord="file1_012"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="racetrackTurnRight90_png-effect">
+      <profile_COMMON>
+        <newparam sid="racetrackTurnRight90_png-surface">
+          <surface type="2D">
+            <init_from>racetrackTurnRight90_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="racetrackTurnRight90_png-sampler">
+          <sampler2D>
+            <source>racetrackTurnRight90_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="racetrackTurnRight90_png-sampler" texcoord="racetrackTurnRight90_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="racetrackIntersection_png-effect">
+      <profile_COMMON>
+        <newparam sid="racetrackIntersection_png-surface">
+          <surface type="2D">
+            <init_from>racetrackIntersection_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="racetrackIntersection_png-sampler">
+          <sampler2D>
+            <source>racetrackIntersection_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="racetrackIntersection_png-sampler" texcoord="racetrackIntersection_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="racetrackTurnLeft90_png_001-effect">
+      <profile_COMMON>
+        <newparam sid="racetrackTurnLeft90_png_001-surface">
+          <surface type="2D">
+            <init_from>racetrackTurnLeft90_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="racetrackTurnLeft90_png_001-sampler">
+          <sampler2D>
+            <source>racetrackTurnLeft90_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="racetrackTurnLeft90_png_001-sampler" texcoord="racetrackTurnLeft90_png_001"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="tile2_Material_BaseColor_png-effect">
+      <profile_COMMON>
+        <newparam sid="tile2_Material_BaseColor_png-surface">
+          <surface type="2D">
+            <init_from>tile2_Material_BaseColor_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="tile2_Material_BaseColor_png-sampler">
+          <sampler2D>
+            <source>tile2_Material_BaseColor_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="tile2_Material_BaseColor_png-sampler" texcoord="tile2_Material_BaseColor_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="roadTurnLeft90_png_001-effect">
+      <profile_COMMON>
+        <newparam sid="roadTurnLeft90_png_001-surface">
+          <surface type="2D">
+            <init_from>roadTurnLeft90_png_001</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="roadTurnLeft90_png_001-sampler">
+          <sampler2D>
+            <source>roadTurnLeft90_png_001-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="roadTurnLeft90_png_001-sampler" texcoord="roadTurnLeft90_png_001"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="racetrackStraight_png-effect">
+      <profile_COMMON>
+        <newparam sid="racetrackStraight_png-surface">
+          <surface type="2D">
+            <init_from>racetrackStraight_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="racetrackStraight_png-sampler">
+          <sampler2D>
+            <source>racetrackStraight_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="racetrackStraight_png-sampler" texcoord="racetrackStraight_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="roadTurnRight45_png-effect">
+      <profile_COMMON>
+        <newparam sid="roadTurnRight45_png-surface">
+          <surface type="2D">
+            <init_from>roadTurnRight45_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="roadTurnRight45_png-sampler">
+          <sampler2D>
+            <source>roadTurnRight45_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="roadTurnRight45_png-sampler" texcoord="roadTurnRight45_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="roadIntersection_png-effect">
+      <profile_COMMON>
+        <newparam sid="roadIntersection_png-surface">
+          <surface type="2D">
+            <init_from>roadIntersection_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="roadIntersection_png-sampler">
+          <sampler2D>
+            <source>roadIntersection_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="roadIntersection_png-sampler" texcoord="roadIntersection_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="roadTurnLeft45_png-effect">
+      <profile_COMMON>
+        <newparam sid="roadTurnLeft45_png-surface">
+          <surface type="2D">
+            <init_from>roadTurnLeft45_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="roadTurnLeft45_png-sampler">
+          <sampler2D>
+            <source>roadTurnLeft45_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="roadTurnLeft45_png-sampler" texcoord="roadTurnLeft45_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="file1-material" name="file1">
+      <instance_effect url="#file1-effect"/>
+    </material>
+    <material id="file1_001-material" name="file1_001">
+      <instance_effect url="#file1_001-effect"/>
+    </material>
+    <material id="file1_003-material" name="file1_003">
+      <instance_effect url="#file1_003-effect"/>
+    </material>
+    <material id="file1_004-material" name="file1_004">
+      <instance_effect url="#file1_004-effect"/>
+    </material>
+    <material id="file1_005-material" name="file1_005">
+      <instance_effect url="#file1_005-effect"/>
+    </material>
+    <material id="file1_008-material" name="file1_008">
+      <instance_effect url="#file1_008-effect"/>
+    </material>
+    <material id="file1_009-material" name="file1_009">
+      <instance_effect url="#file1_009-effect"/>
+    </material>
+    <material id="file1_012-material" name="file1_012">
+      <instance_effect url="#file1_012-effect"/>
+    </material>
+    <material id="racetrackTurnRight90_png-material" name="racetrackTurnRight90_png">
+      <instance_effect url="#racetrackTurnRight90_png-effect"/>
+    </material>
+    <material id="racetrackIntersection_png-material" name="racetrackIntersection_png">
+      <instance_effect url="#racetrackIntersection_png-effect"/>
+    </material>
+    <material id="racetrackTurnLeft90_png_001-material" name="racetrackTurnLeft90_png_001">
+      <instance_effect url="#racetrackTurnLeft90_png_001-effect"/>
+    </material>
+    <material id="tile2_Material_BaseColor_png-material" name="tile2_Material_BaseColor_png">
+      <instance_effect url="#tile2_Material_BaseColor_png-effect"/>
+    </material>
+    <material id="roadTurnLeft90_png_001-material" name="roadTurnLeft90_png_001">
+      <instance_effect url="#roadTurnLeft90_png_001-effect"/>
+    </material>
+    <material id="racetrackStraight_png-material" name="racetrackStraight_png">
+      <instance_effect url="#racetrackStraight_png-effect"/>
+    </material>
+    <material id="roadTurnRight45_png-material" name="roadTurnRight45_png">
+      <instance_effect url="#roadTurnRight45_png-effect"/>
+    </material>
+    <material id="roadIntersection_png-material" name="roadIntersection_png">
+      <instance_effect url="#roadIntersection_png-effect"/>
+    </material>
+    <material id="roadTurnLeft45_png-material" name="roadTurnLeft45_png">
+      <instance_effect url="#roadTurnLeft45_png-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Untitled_004-mesh" name="Untitled.004">
+      <mesh>
+        <source id="Untitled_004-mesh-positions">
+          <float_array id="Untitled_004-mesh-positions-array" count="111">-1000.922 0.5 -599.9996 -1000.922 1.5 -599.9996 -845.6307 0.5 -579.5551 -845.6307 1.5 -579.5551 -700.9221 0.5 -519.6149 -700.9221 1.5 -519.6149 -576.6581 0.5 -424.2638 -576.6581 1.5 -424.2638 -481.307 0.5 -299.9998 -481.307 1.5 -299.9998 -421.3668 0.5 -155.2913 -421.3668 1.5 -155.2913 -400.922 0.5 0 -400.922 1.5 0 399.078 1.5 0 351.3734 1.5 -362.3463 -1000.922 1.5 -1399.999 -638.5754 1.5 -1352.295 -300.9223 1.5 -1212.435 -10.97284 1.5 -989.9487 211.5129 1.5 -699.9995 351.3734 0.5 -362.3463 399.078 0.5 0 -1000.922 0.5 -1399.999 -638.5754 0.5 -1352.295 -300.9223 0.5 -1212.435 -10.97284 0.5 -989.9487 211.5129 0.5 -699.9995 -500.4638 1.5 -866.8187 -741.8657 1.5 -966.8106 -1000.922 1.5 -1000.916 -1000.922 0.5 -1000.916 -0.005129992 0.5 0 -0.005129992 1.5 0 -34.11132 1.5 -259.056 -134.1033 1.5 -500.458 -293.1673 1.5 -707.7544</float_array>
+          <technique_common>
+            <accessor source="#Untitled_004-mesh-positions-array" count="37" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Untitled_004-mesh-normals">
+          <float_array id="Untitled_004-mesh-normals-array" count="123">-0.1305268 0 0.9914448 -0.2588199 0 0.9659257 -0.2588196 0 0.9659258 -0.4999993 0 0.8660258 -0.4999994 0 0.8660258 -0.7071071 0 0.7071065 -0.7071066 0 0.707107 -0.8660255 0 0.4999998 -0.8660258 0 0.4999995 -0.9658569 -3.25335e-5 0.2590765 -0.965925 -3.23957e-5 0.2588223 -0.9914447 0 0.1305282 -0.9659206 -8.33444e-4 0.2588376 -0.9914447 -1.45609e-5 0.1305281 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0.9659254 0 -0.2588207 0.9914446 0 -0.1305283 0.9914447 0 -0.1305283 0.9659259 0 -0.2588193 0.2588191 0 -0.9659259 0.130527 0 -0.9914448 0.2588194 0 -0.9659258 0.4999997 0 -0.8660256 0.4999993 0 -0.8660259 0.7071074 0 -0.7071062 0.7071058 0 -0.7071079 0.8660252 0 -0.5000005 0.8660263 0 -0.4999984 -1 0 -1.52938e-7 -1 0 0 -1 0 -1.52938e-7 0 0 1 -1 0 -3.05877e-7 -1 0 -3.05877e-7 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Untitled_004-mesh-normals-array" count="41" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Untitled_004-mesh-map-0">
+          <float_array id="Untitled_004-mesh-map-0-array" count="336">0.8822 0.03555399 0.8822 0.04833799 0.88053 0.03566294 0.88053 0.04844695 0.88053 0.03566294 0.8822 0.04833799 0.911615 0.03555399 0.911615 0.04833799 0.909945 0.03566294 0.909945 0.04844695 0.909945 0.03566294 0.911615 0.04833799 0.896906 0.03555399 0.896906 0.04833799 0.895239 0.03566294 0.895239 0.04844695 0.895239 0.03566294 0.896906 0.04833799 0.911631 0.03555399 0.924415 0.03555399 0.911741 0.03722196 0.911741 0.03722196 0.924415 0.03555399 0.924525 0.03722196 0.882215 0.03555399 0.895 0.03555399 0.882324 0.03722196 0.882324 0.03722196 0.895 0.03555399 0.89511 0.03722196 0.896924 0.03555399 0.909708 0.03555399 0.897032 0.03722196 0.897032 0.03722196 0.909708 0.03555399 0.909817 0.03722196 0.6 0.7 0.3357551 0.574943 0.6 0.6 0.3357551 0.574943 0.6 0.7 0.3357551 0.725057 0.6 0.9 0.3357551 0.925057 0.6 0.799999 0.6 0.799999 0.3357551 0.925057 0.3357551 0.774943 0.6 0.9 0.3357551 0.774943 0.6 0.8 0.3357551 0.774943 0.6 0.9 0.3357551 0.925057 0.3357551 0.774943 0.6 0.9 0.3357551 0.925057 0.6 0.9 0.3357551 0.774943 0.6 0.8 0.3357551 0.774943 0.6 0.799999 0.3357551 0.925057 0.3357551 0.925057 0.6 0.799999 0.6 0.899999 0.3357551 0.774943 0.6 0.9 0.3357551 0.925057 0.6 0.9 0.3357551 0.774943 0.6 0.799999 0.857244 0.038082 0.837556 0.038082 0.83788 0.03555399 0.83788 0.03555399 0.857566 0.03555399 0.857244 0.038082 0.835003 0.05524098 0.835003 0.03555399 0.83753 0.03587698 0.835003 0.05524098 0.83753 0.03587698 0.83753 0.05556499 0.860294 0.03587698 0.857767 0.05524098 0.857767 0.03555399 0.857767 0.05524098 0.860294 0.03587698 0.860294 0.05556499 0.812238 0.05524098 0.812238 0.03555399 0.814767 0.03587698 0.812238 0.05524098 0.814767 0.03587698 0.814767 0.05556499 0.880008 0.038082 0.86032 0.038082 0.860644 0.03555399 0.860644 0.03555399 0.880331 0.03555399 0.880008 0.038082 0.834479 0.038082 0.814791 0.038082 0.815115 0.03555399 0.815115 0.03555399 0.834803 0.03555399 0.834479 0.038082 0.797536 0.04118895 0.783056 0.04306 0.783056 0.03928899 0.783056 0.03928899 0.797536 0.03741699 0.797536 0.04118895 0.777347 0.05003398 0.775476 0.03555399 0.779246 0.03555399 0.777347 0.05003398 0.779246 0.03555399 0.781118 0.05003297 0.1 0.75 0.3357551 0.925057 0.1 0.95 0.3357551 0.925057 0.1 0.75 0.3357551 0.774943 0.3357551 0.925057 0.1 0.95 0.3357551 0.774943 0.3357551 0.774943 0.1 0.95 0.1 0.75 0.797536 0.03741699 0.811949 0.03555399 0.797536 0.04118895 0.797536 0.04118895 0.811949 0.03555399 0.811949 0.03932499 0.77921 0.06444597 0.777347 0.05003398 0.781118 0.05003297 0.77921 0.06444597 0.781118 0.05003297 0.782982 0.06444597 0.3357551 0.725057 0.1 0.55 0.3357551 0.574943 0.1 0.55 0.3357551 0.725057 0.1 0.75 0.1 0.95 0.1 0.75 0.3357551 0.774943 0.1 0.95 0.3357551 0.774943 0.3357551 0.925057 0.1 0.95 0.1 0.75 0.3357551 0.774943 0.1 0.95 0.3357551 0.774943 0.3357551 0.925057 0.1 0.75 0.3357551 0.774943 0.1 0.95 0.3357551 0.774943 0.3357551 0.925057 0.1 0.95</float_array>
+          <technique_common>
+            <accessor source="#Untitled_004-mesh-map-0-array" count="168" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Untitled_004-mesh-vertices">
+          <input semantic="POSITION" source="#Untitled_004-mesh-positions"/>
+        </vertices>
+        <triangles material="roadTurnLeft90_png_001-material" count="56">
+          <input semantic="VERTEX" source="#Untitled_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Untitled_004-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Untitled_004-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 2 1 1 1 0 2 3 2 3 1 0 4 2 1 5 2 1 6 4 3 7 3 2 8 5 4 9 3 2 10 4 3 11 4 3 12 6 5 13 5 4 14 7 6 15 5 4 16 6 5 17 9 7 18 7 6 19 8 8 20 8 8 21 7 6 22 6 5 23 11 9 24 9 7 25 10 10 26 10 10 27 9 7 28 8 8 29 13 11 30 11 12 31 12 11 32 12 13 33 11 9 34 10 10 35 13 14 36 34 14 37 11 14 38 34 14 39 13 14 40 33 14 41 3 14 42 29 14 43 1 14 44 1 14 45 29 14 46 30 14 47 5 14 48 29 14 49 3 14 50 29 14 51 5 14 52 28 15 53 28 15 54 7 16 55 36 17 56 7 16 57 28 15 58 5 14 59 36 17 60 7 16 61 35 18 62 35 18 63 7 16 64 9 19 65 35 18 66 11 14 67 34 14 68 11 14 69 35 18 70 9 19 71 15 20 72 14 21 73 22 22 74 22 22 75 21 23 76 15 20 77 24 24 78 23 25 79 16 25 80 24 24 81 16 25 82 17 26 83 17 26 84 25 27 85 24 24 86 25 27 87 17 26 88 18 28 89 26 29 90 25 27 91 18 28 92 26 29 93 18 28 94 19 30 95 19 30 96 20 31 97 27 32 98 27 32 99 26 29 100 19 30 101 20 31 102 15 20 103 21 23 104 21 23 105 27 32 106 20 31 107 31 33 108 0 34 109 1 34 110 1 34 111 30 35 112 31 33 113 33 36 114 13 36 115 12 36 116 33 36 117 12 36 118 32 36 119 17 14 120 28 15 121 18 14 122 28 15 123 17 14 124 29 14 125 29 14 126 17 14 127 30 14 128 30 14 129 17 14 130 16 14 131 30 35 132 16 37 133 31 33 134 31 33 135 16 37 136 23 38 137 14 36 138 33 36 139 32 36 140 14 36 141 32 36 142 22 36 143 33 14 144 15 14 145 34 14 146 15 14 147 33 14 148 14 14 149 15 14 150 20 39 151 35 18 152 15 14 153 35 18 154 34 14 155 20 39 156 19 40 157 36 17 158 20 39 159 36 17 160 35 18 161 18 14 162 28 15 163 19 40 164 28 15 165 36 17 166 19 40 167</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_004_Road_Turn-skin" name="Armature.004">
+      <skin source="#Untitled_004-mesh">
+        <bind_shape_matrix>0.01 0 0 0 0 -1.62921e-9 -0.01 0 0 0.01 -1.62921e-9 -2.46469e-16 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_004_Road_Turn-skin-joints">
+          <Name_array id="Armature_004_Road_Turn-skin-joints-array" count="10">root A2 A3 A4 A6 A7 B2 B3 B4 B5</Name_array>
+          <technique_common>
+            <accessor source="#Armature_004_Road_Turn-skin-joints-array" count="10" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_004_Road_Turn-skin-bind_poses">
+          <float_array id="Armature_004_Road_Turn-skin-bind_poses-array" count="160">100 0 0 0 0 -1.62921e-5 100 -1 0 -100 -1.62921e-5 0 0 0 0 1 92.31616 38.44114 0.08239877 -266.4893 -38.44115 92.3162 5.64754e-6 -225.297 -0.07606595 -0.03169637 99.99998 -0.7802802 0 0 0 1 79.49932 60.66176 0.08617347 -394.701 -60.66182 79.49932 6.26141e-6 -452.9272 -0.06850415 -0.05229562 99.99996 -0.6597375 0 0 0 1 60.82475 79.37458 -0.1569349 -581.9173 -79.37471 60.82476 6.80564e-6 -636.8415 0.09545999 0.1245463 99.99987 -1.913105 0 0 0 1 13.28497 99.11349 -0.1541188 -1056.794 -99.11361 13.28496 5.87106e-6 -837.7825 0.02047973 0.1527357 99.99988 -2.628628 0 0 0 1 0.1331676 99.99955 -0.2664936 -1198.674 -99.99992 0.1331405 3.08752e-5 -1001.638 3.85053e-4 0.2664771 99.99964 -4.194025 0 0 0 1 -56.01507 -82.83908 -0.004599273 219.8567 82.83907 -56.01507 -1.1899e-6 988.2778 -0.002574622 -0.003809213 100 -0.9898765 0 0 0 1 -82.92821 -55.88301 -0.03869873 -49.67008 55.883 -82.92823 -5.56228e-6 711.1392 -0.03208839 -0.02162915 100 -1.019179 0 0 0 1 -97.79631 -20.8778 -0.02976632 -195.8592 20.87779 -97.79631 -9.04876e-6 353.5927 -0.0291078 -0.00622195 100 -1.058247 0 0 0 1 -100 1.81111e-6 -8.74279e-6 -200.3979 -1.16229e-5 -100 -1.46003e-6 0.5851817 -8.07643e-6 0 100 -0.9999685 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_004_Road_Turn-skin-bind_poses-array" count="10" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_004_Road_Turn-skin-weights">
+          <float_array id="Armature_004_Road_Turn-skin-weights-array" count="55">1 1 1 1 1 1 1 1 0.9702181 0.003802478 0.01729649 0.008682787 1 0.9851157 0.004463553 0.008567988 0.001852631 1 1 1 1 1 0.9840036 0.007998228 0.007998228 1 1 0.9938915 0.003054201 0.003054201 1 1 1 0.9840036 0.007998228 0.007998228 1 1 0.9729294 0.01353526 0.01353526 0.9938755 0.003062188 0.003062188 1 1 0.9989677 0.001032292 0.9989677 0.001032292 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_004_Road_Turn-skin-weights-array" count="55" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_004_Road_Turn-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_004_Road_Turn-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="37">
+          <input semantic="JOINT" source="#Armature_004_Road_Turn-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_004_Road_Turn-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 4 1 4 1 1 1 1 1 3 1 1 3 1 1 1 3 1 1 3 3 1 1 2 2 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 6 9 7 10 8 11 0 12 0 13 7 14 8 15 9 16 0 17 0 18 0 19 0 20 0 21 0 22 4 23 5 24 0 25 0 26 0 27 2 28 3 29 0 30 0 31 0 32 0 33 4 34 5 35 0 36 0 37 0 38 2 39 3 40 0 41 1 42 2 43 0 44 0 45 0 46 5 47 0 48 5 49 0 50 0 51 0 52 0 53 0 54</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature_004" name="Armature_004" type="NODE">
+        <matrix sid="transform">0.01 0 0 0 0 -1.62921e-9 -0.01 0 0 0.01 -1.62921e-9 0 0 0 0 1</matrix>
+        <node id="Armature_004_root" name="root" sid="root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 0.9999999 0 1 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_004_A1" name="A1" sid="A1" type="JOINT">
+            <matrix sid="transform">0.9915576 -0.1296667 -5.72818e-6 200 5.75837e-6 -1.9744e-7 1 -6.10352e-5 -0.1296667 -0.9915577 3.89293e-7 4.13296e-5 0 0 0 1</matrix>
+            <node id="Armature_004_A2" name="A2" sid="A2" type="JOINT">
+              <matrix sid="transform">0.9652131 -0.2614627 -7.89558e-4 -1.52588e-5 0.2614627 0.9652135 -2.15692e-4 313.0699 8.18487e-4 1.74879e-6 0.9999996 -5.96046e-8 0 0 0 1</matrix>
+              <node id="Armature_004_A3" name="A3" sid="A3" type="JOINT">
+                <matrix sid="transform">0.9670985 -0.2544019 -9.37922e-6 3.05176e-5 0.2544019 0.9670987 -2.19232e-4 313.1409 6.48438e-5 2.09633e-4 1 0 0 0 0 1</matrix>
+                <node id="Armature_004_A4" name="A4" sid="A4" type="JOINT">
+                  <matrix sid="transform">0.9650517 -0.2620492 0.002376259 3.05176e-5 0.2620492 0.9650547 4.11244e-4 314.1516 -0.002400985 2.25824e-4 0.9999971 2.38419e-7 0 0 0 1</matrix>
+                  <node id="Armature_004_A5" name="A5" sid="A5" type="JOINT">
+                    <matrix sid="transform">0.9653969 -0.2607775 -0.002348821 6.10352e-5 0.260778 0.9653988 -2.10555e-4 312.5986 0.002322456 -4.09251e-4 0.9999973 1.19209e-7 0 0 0 1</matrix>
+                    <node id="Armature_004_A6" name="A6" sid="A6" type="JOINT">
+                      <matrix sid="transform">0.9672101 -0.2539679 0.002298096 -6.10352e-5 0.2539676 0.9672125 3.91421e-4 313.8693 -0.002322156 2.05055e-4 0.9999973 0 0 0 0 1</matrix>
+                      <node id="Armature_004_A7" name="A7" sid="A7" type="JOINT">
+                        <matrix sid="transform">0.9913116 -0.1315299 0.001100638 -0.2752686 0.1315294 0.9913123 3.50271e-4 312.816 -0.001137147 -2.02462e-4 0.9999994 -4.68016e-4 0 0 0 1</matrix>
+                        <node id="Armature_004_nextTrackPiece" name="nextTrackPiece" sid="nextTrackPiece" type="JOINT">
+                          <matrix sid="transform">0.9999955 -0.001331543 -0.002664578 -199.7704 0.001331604 0.9999991 3.02313e-7 -0.2669678 0.002664575 -3.85058e-6 0.9999965 -1.532381 0 0 0 1</matrix>
+                          <extra>
+                            <technique profile="blender">
+                              <layer sid="layer" type="string">0</layer>
+                              <roll sid="roll" type="float">1.570797</roll>
+                              <tip_x sid="tip_x" type="float">-109.6871</tip_x>
+                              <tip_y sid="tip_y" type="float">0</tip_y>
+                              <tip_z sid="tip_z" type="float">0</tip_z>
+                            </technique>
+                          </extra>
+                        </node>
+                        <extra>
+                          <technique profile="blender">
+                            <layer sid="layer" type="string">0</layer>
+                            <roll sid="roll" type="float">1.57213</roll>
+                            <tip_x sid="tip_x" type="float">-107.8895</tip_x>
+                            <tip_y sid="tip_y" type="float">3.25441e-5</tip_y>
+                            <tip_z sid="tip_z" type="float">-0.1436767</tip_z>
+                          </technique>
+                        </extra>
+                      </node>
+                      <extra>
+                        <technique profile="blender">
+                          <connect sid="connect" type="bool">1</connect>
+                          <layer sid="layer" type="string">0</layer>
+                          <roll sid="roll" type="float">1.439094</roll>
+                          <tip_x sid="tip_x" type="float">-310.2985</tip_x>
+                          <tip_y sid="tip_y" type="float">1.62125e-5</tip_y>
+                          <tip_z sid="tip_z" type="float">-41.5918</tip_z>
+                        </technique>
+                      </extra>
+                    </node>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <roll sid="roll" type="float">1.179965</roll>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                      <roll sid="roll" type="float">0.9185144</roll>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">0.650938</roll>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">0.3937463</roll>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">0.130027</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_004_B1" name="B1" sid="B1" type="JOINT">
+            <matrix sid="transform">-0.2065909 0.9784274 7.45058e-8 -999.9994 -5.96046e-7 -2.08616e-7 1 -6.10352e-5 0.9784274 0.2065909 6.4075e-7 -799.9999 0 0 0 1</matrix>
+            <node id="Armature_004_B2" name="B2" sid="B2" type="JOINT">
+              <matrix sid="transform">0.9262421 0.3769288 4.18341e-5 0 -0.3769289 0.9262421 -1.7564e-5 311.1852 -4.53689e-5 5.00049e-7 1 0 0 0 0 1</matrix>
+              <node id="Armature_004_B3" name="B3" sid="B3" type="JOINT">
+                <matrix sid="transform">0.9274527 0.3739406 3.1294e-4 4.57764e-5 -0.3739405 0.9274527 -1.44671e-4 310.1562 -3.44336e-4 1.71541e-5 1 -5.96046e-8 0 0 0 1</matrix>
+                <node id="Armature_004_B4" name="B4" sid="B4" type="JOINT">
+                  <matrix sid="transform">0.9276788 0.3733793 -1.10818e-4 7.62939e-6 -0.3733793 0.9276789 -1.11113e-4 309.9888 6.13159e-5 1.44454e-4 1 1.19209e-7 0 0 0 1</matrix>
+                  <node id="Armature_004_B5" name="B5" sid="B5" type="JOINT">
+                    <matrix sid="transform">0.977963 0.208778 -2.97575e-4 1.52588e-5 -0.2087779 0.977963 -9.44443e-8 311.1818 2.90997e-4 6.22196e-5 0.9999999 0 0 0 0 1</matrix>
+                    <extra>
+                      <technique profile="blender">
+                        <connect sid="connect" type="bool">1</connect>
+                        <layer sid="layer" type="string">0</layer>
+                        <roll sid="roll" type="float">3.141593</roll>
+                        <tip_x sid="tip_x" type="float">0</tip_x>
+                        <tip_y sid="tip_y" type="float">2.30074e-5</tip_y>
+                        <tip_z sid="tip_z" type="float">141.4879</tip_z>
+                      </technique>
+                    </extra>
+                  </node>
+                  <extra>
+                    <technique profile="blender">
+                      <connect sid="connect" type="bool">1</connect>
+                      <layer sid="layer" type="string">0</layer>
+                      <roll sid="roll" type="float">3.352216</roll>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.734954</roll>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">4.117867</roll>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">4.5043</roll>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">740.3121</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="Road_Turn" name="Road_Turn" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature_004_Road_Turn-skin">
+          <skeleton>#Armature_004_root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="roadTurnLeft90_png_001-material" target="#roadTurnLeft90_png_001-material">
+                <bind_vertex_input semantic="map1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2017-09-11, commit time:10:43, hash:5bd8ac9</authoring_tool>
+    </contributor>
+    <created>2020-11-10T13:22:04</created>
+    <modified>2020-11-10T13:22:04</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="roadStraight_png" name="roadStraight_png">
+      <init_from>roadStraight.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="roadStraight_png-effect">
+      <profile_COMMON>
+        <newparam sid="roadStraight_png-surface">
+          <surface type="2D">
+            <init_from>roadStraight_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="roadStraight_png-sampler">
+          <sampler2D>
+            <source>roadStraight_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="roadStraight_png-sampler" texcoord="roadStraight_png"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="roadStraight_png-material" name="roadStraight_png">
+      <instance_effect url="#roadStraight_png-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Untitled_018-mesh" name="Untitled.018">
+      <mesh>
+        <source id="Untitled_018-mesh-positions">
+          <float_array id="Untitled_018-mesh-positions-array" count="48">-400 0.5 0 400 0.5 0 -400 1.5 0 400 1.5 0 -400 1.5 -333.3334 400 1.5 -333.3334 -400 1.5 -666.6668 400 1.5 -666.6668 -400 0.5 -666.6666 400 0.5 -666.6666 -400 0.5 -333.3333 400 0.5 -333.3333 0 1.5 -666.6668 0 1.5 -333.3334 0 1.5 0 0 0.5 0</float_array>
+          <technique_common>
+            <accessor source="#Untitled_018-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Untitled_018-mesh-normals">
+          <float_array id="Untitled_018-mesh-normals-array" count="36">0 0 1 0 1 0 1 0 0 1 6.43081e-5 0 1 6.44531e-5 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 9.35716e-5 0 -1 0 0 -1 9.375e-5 0</float_array>
+          <technique_common>
+            <accessor source="#Untitled_018-mesh-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Untitled_018-mesh-map">
+          <float_array id="Untitled_018-mesh-map-array" count="120">0.810507 0.06251895 0.810495 0.04978996 0.813765 0.05020999 0.810507 0.06251895 0.813765 0.05020999 0.813776 0.06293898 0.1 0.55 0.3327745 0.75 0.1 0.75 0.3327745 0.75 0.1 0.55 0.3327745 0.55 0.1 0.75 0.3327745 0.95 0.1 0.95 0.3327745 0.95 0.1 0.75 0.3327745 0.75 0.838711 0.01430797 0.860071 0.01160895 0.859727 0.01430797 0.860071 0.01160895 0.838711 0.01430797 0.839055 0.01160895 0.810507 0.06251895 0.813756 0.08838999 0.810487 0.08797097 0.813756 0.08838999 0.810507 0.06251895 0.813776 0.06293898 0.817481 0.01160895 0.838153 0.01430797 0.817137 0.01430797 0.838153 0.01430797 0.817481 0.01160895 0.838498 0.01160895 0.810484 0.03706198 0.813774 0.01202899 0.813753 0.03748095 0.813774 0.01202899 0.810484 0.03706198 0.810505 0.01160895 0.3327745 0.75 0.6 0.95 0.3327745 0.95 0.6 0.95 0.3327745 0.75 0.6 0.75 0.3327745 0.55 0.6 0.75 0.3327745 0.75 0.6 0.75 0.3327745 0.55 0.6 0.55 0.810495 0.04978996 0.810484 0.03706198 0.813753 0.03748095 0.810495 0.04978996 0.813753 0.03748095 0.813765 0.05020999</float_array>
+          <technique_common>
+            <accessor source="#Untitled_018-mesh-map-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Untitled_018-mesh-vertices">
+          <input semantic="POSITION" source="#Untitled_018-mesh-positions"/>
+        </vertices>
+        <triangles material="roadStraight_png-material" count="20">
+          <input semantic="VERTEX" source="#Untitled_018-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Untitled_018-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Untitled_018-mesh-map" offset="2" set="0"/>
+          <p>3 0 0 14 0 1 15 0 2 3 0 3 15 0 4 1 0 5 5 1 6 14 1 7 3 1 8 14 1 9 5 1 10 13 1 11 7 1 12 13 1 13 5 1 14 13 1 15 7 1 16 12 1 17 5 2 18 9 3 19 7 4 20 9 3 21 5 2 22 11 5 23 3 6 24 11 5 25 5 2 26 11 5 27 3 6 28 1 7 29 4 8 30 8 9 31 10 10 32 8 9 33 4 8 34 6 11 35 2 10 36 10 10 37 0 10 38 10 10 39 2 10 40 4 8 41 12 1 42 4 1 43 13 1 44 4 1 45 12 1 46 6 1 47 13 1 48 2 1 49 14 1 50 2 1 51 13 1 52 4 1 53 14 0 54 2 0 55 0 0 56 14 0 57 0 0 58 15 0 59</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_023_Road_Straight_013-skin" name="Armature.023">
+      <skin source="#Untitled_018-mesh">
+        <bind_shape_matrix>0.01 0 0 -1.22402e-15 0 -1.62921e-9 -0.010605 0 0 0.01 -1.72777e-9 0.01 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_023_Road_Straight_013-skin-joints">
+          <Name_array id="Armature_023_Road_Straight_013-skin-joints-array" count="10">root A3 nextTrackPiece A1 A2 B1 B2 B3 B1 B2</Name_array>
+          <technique_common>
+            <accessor source="#Armature_023_Road_Straight_013-skin-joints-array" count="10" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_023_Road_Straight_013-skin-bind_poses">
+          <float_array id="Armature_023_Road_Straight_013-skin-bind_poses-array" count="160">100 0 0 0 0 3.31937e-5 100 -0.9966413 0 -100 3.31937e-5 -4.93742e-7 0 0 0 1 99.99943 -0.3170166 -0.1100963 -197.4698 0.3170105 99.99951 5.71259e-5 -707.7249 0.1100955 -3.95864e-4 99.99994 -2.21713 0 0 0 1 99.99997 -0.0442323 -0.04422712 0.3123915 0.04423224 100 2.64661e-5 -706.6658 0.04422712 -3.57181e-5 100 -1.000073 0 0 0 1 99.99839 0.3849707 0.4173272 -200.0057 -0.3849741 99.99927 1.06358e-5 0.7699505 -0.4173242 -0.001606881 99.99914 -1.16533 0 0 0 1 99.99896 -0.3252792 -0.3186818 -197.4063 0.3252851 99.99949 2.60727e-5 -364.7249 0.3186799 -0.001052498 99.9995 -2.629053 0 0 0 1 -100 1.90735e-6 -6.27833e-5 -200.0483 -2.10622e-5 -100 -1.32979e-5 706.7296 -6.27115e-5 -1.98185e-5 100 -2.000115 0 0 0 1 -100 0 -5.6426e-5 -200.0483 0 -100 -8.34211e-6 361.5609 -5.64381e-5 -1.49012e-5 100 -2.00012 0 0 0 1 -100 0 -8.74228e-6 -200.0483 1.19209e-7 -100 6.48968e-6 -2.01532 -8.70228e-6 0 100 -2.000025 0 0 0 1 -100 1.90735e-6 -6.27833e-5 -200.0483 -2.10622e-5 -100 -1.32979e-5 706.7296 -6.27115e-5 -1.98185e-5 100 -2.000115 0 0 0 1 -100 0 -5.6426e-5 -200.0483 0 -100 -8.34211e-6 361.5609 -5.64381e-5 -1.49012e-5 100 -2.00012 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_023_Road_Straight_013-skin-bind_poses-array" count="10" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_023_Road_Straight_013-skin-weights">
+          <float_array id="Armature_023_Road_Straight_013-skin-weights-array" count="51">0.1311552 0.8688447 0.128902 0.8710981 0.1311529 0.868847 0.128901 0.8710989 0.03043395 0.06536692 0.08756715 0.816632 0.02457147 0.8720511 0.1033774 0.06788837 0.105774 0.7283719 0.09796565 0.1008779 0.1282818 0.7708402 0.06788378 0.1057757 0.7283718 0.09796875 0.1008796 0.1282835 0.770837 0.03043138 0.06536251 0.08756971 0.8166363 0.02456933 0.8720513 0.1033793 0.04699617 0.005910217 0.1344784 0.5792486 0.005211353 0.1350893 0.08713388 0.005931794 0.2298203 0.5526952 0.125046 0.003258049 0.08918029 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_023_Road_Straight_013-skin-weights-array" count="51" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_023_Road_Straight_013-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_023_Road_Straight_013-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#Armature_023_Road_Straight_013-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_023_Road_Straight_013-skin-weights" offset="1"/>
+          <vcount>2 2 2 2 4 3 4 3 4 3 4 3 8 5 1 1 </vcount>
+          <v>0 0 8 1 0 2 3 3 0 4 8 5 0 6 3 7 0 8 3 9 7 10 8 11 0 12 3 13 4 14 4 15 6 16 7 17 8 18 1 19 3 20 4 21 4 22 6 23 7 24 8 25 1 26 3 27 4 28 0 29 3 30 7 31 8 32 0 33 3 34 4 35 0 36 1 37 3 38 4 39 5 40 6 41 7 42 8 43 0 44 3 45 4 46 6 47 8 48 0 49 0 50</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature_023" name="Armature_023" type="NODE">
+        <matrix sid="transform">0.01 0 0 0 0 -1.62921e-9 -0.01 0 0 0.01 -1.62921e-9 0.01 0 0 0 1</matrix>
+        <node id="Armature_023_root" name="root" sid="root" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 4.94857e-7 -0.003358722 0 -4.94857e-7 1 1.63468e-7 0 0 0 1</matrix>
+          <node id="Armature_023_A1" name="A1" sid="A1" type="JOINT">
+            <matrix sid="transform">0.9999838 -0.00384974 -0.004173241 200.0006 0.004173273 3.35281e-7 0.9999912 1.003357 -0.003849705 -0.9999925 1.65043e-5 3.33035e-7 0 0 0 1</matrix>
+            <node id="Armature_023_A2" name="A2" sid="A2" type="JOINT">
+              <matrix sid="transform">0.9999477 0.007102493 0.007359959 1.52588e-5 -0.007102517 0.9999748 -2.27892e-5 364.0834 -0.007359935 -2.94862e-5 0.9999729 1.3411e-7 0 0 0 1</matrix>
+              <node id="Armature_023_A3" name="A3" sid="A3" type="JOINT">
+                <matrix sid="transform">0.9999979 -8.27108e-5 -0.002085858 0 8.29129e-5 0.9999999 -2.19698e-7 343.0164 0.002085859 4.63488e-8 0.9999979 0 0 0 0 1</matrix>
+                <node id="Armature_023_nextTrackPiece" name="nextTrackPiece" sid="nextTrackPiece" type="JOINT">
+                  <matrix sid="transform">0.9999961 -0.002727841 -6.58693e-4 -199.7106 0.002728047 0.9999963 1.51289e-6 -1.062561 6.58686e-4 -3.31013e-6 0.9999997 -1.219603 0 0 0 1</matrix>
+                  <extra>
+                    <technique profile="blender">
+                      <layer sid="layer" type="string">0</layer>
+                      <tip_x sid="tip_x" type="float">0.04901123</tip_x>
+                      <tip_y sid="tip_y" type="float">0</tip_y>
+                      <tip_z sid="tip_z" type="float">-110.817</tip_z>
+                    </technique>
+                  </extra>
+                </node>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">-0.002069234</roll>
+                    <tip_x sid="tip_x" type="float">0.3675232</tip_x>
+                    <tip_y sid="tip_y" type="float">3.54648e-5</tip_y>
+                    <tip_z sid="tip_z" type="float">-115.9303</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">-6.60419e-5</roll>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">-3.23534e-4</roll>
+              </technique>
+            </extra>
+          </node>
+          <node id="Armature_023_B1" name="B1" sid="B1" type="JOINT">
+            <matrix sid="transform">-1 0 -6.27833e-7 -200.0483 -6.27833e-7 -5.30481e-7 1 1.003723 -3.33053e-13 1 4.64916e-7 -706.7296 0 0 0 1</matrix>
+            <node id="Armature_023_B2" name="B2" sid="B2" type="JOINT">
+              <matrix sid="transform">1 1.3617e-14 -6.3573e-8 1.52588e-5 -3.55658e-14 0.9999999 -4.95581e-8 345.1687 6.34515e-8 4.95573e-8 1 0 0 0 0 1</matrix>
+              <node id="Armature_023_B3" name="B3" sid="B3" type="JOINT">
+                <matrix sid="transform">1 -7.70696e-14 -4.76837e-7 0 -4.26805e-14 1 -1.48318e-7 363.5762 4.76959e-7 1.48282e-7 1 -1.19209e-7 0 0 0 1</matrix>
+                <extra>
+                  <technique profile="blender">
+                    <connect sid="connect" type="bool">1</connect>
+                    <layer sid="layer" type="string">0</layer>
+                    <roll sid="roll" type="float">3.141593</roll>
+                    <tip_x sid="tip_x" type="float">0</tip_x>
+                    <tip_y sid="tip_y" type="float">8.70228e-6</tip_y>
+                    <tip_z sid="tip_z" type="float">53.62251</tip_z>
+                  </technique>
+                </extra>
+              </node>
+              <extra>
+                <technique profile="blender">
+                  <connect sid="connect" type="bool">1</connect>
+                  <layer sid="layer" type="string">0</layer>
+                  <roll sid="roll" type="float">3.141593</roll>
+                </technique>
+              </extra>
+            </node>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <roll sid="roll" type="float">3.141593</roll>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">542.3487</tip_y>
+              <tip_z sid="tip_z" type="float">-2.68385e-4</tip_z>
+            </technique>
+          </extra>
+        </node>
+      </node>
+      <node id="Road_Straight_013" name="Road_Straight_013" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature_023_Road_Straight_013-skin">
+          <skeleton>#Armature_023_root</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="roadStraight_png-material" target="#roadStraight_png-material">
+                <bind_vertex_input semantic="map1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
