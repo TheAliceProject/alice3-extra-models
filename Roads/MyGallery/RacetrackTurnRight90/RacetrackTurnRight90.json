@@ -1,0 +1,207 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -10.009221,
+          -7.2485716E-7,
+          -0.0049999994
+        ],
+        "max": [
+          3.99078,
+          13.999988,
+          0.005000003
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          2.0027754,
+          0.0010821968,
+          -1.7251669
+        ],
+        "max": [
+          2.0822313,
+          0.0013237986,
+          -0.16087034
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          1.9506702,
+          -0.011611627,
+          -0.92798245
+        ],
+        "max": [
+          2.0507295,
+          -0.011288932,
+          0.6351321
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A5",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B6",
+      "parent": "B5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B7",
+      "parent": "B6",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.99078,
+      0.0049999966,
+      -13.999983
+    ],
+    "max": [
+      10.009229,
+      0.0150022805,
+      2.734665E-6
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RacetrackTurnRight90",
+      "idToResourceMap": {
+        "0": "RacetrackTurnRight90-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RacetrackTurnRight90",
+      "structure": "RacetrackTurnRight90",
+      "textureSet": "RacetrackTurnRight90",
+      "icon": "RacetrackTurnRight90.png"
+    }
+  ],
+  "description": {
+    "name": "RacetrackTurnRight90",
+    "icon": "RacetrackTurnRight90_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T19:13:09-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RacetrackTurnRight90",
+      "format": "a3r",
+      "file": "racetrackturnright90.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RacetrackTurnRight90-textureReference",
+      "format": "a3t",
+      "file": "racetrackturnright90.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "1d9c0eb4-723b-4def-b4cd-b8b58385768c",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "RacetrackTurnRight90.png",
+      "format": "image/png",
+      "file": "RacetrackTurnRight90.png",
+      "type": "image"
+    },
+    {
+      "uuid": "5170049d-6eff-410f-86c7-278ccbf258ae",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "RacetrackTurnRight90_cls.png",
+      "format": "image/png",
+      "file": "RacetrackTurnRight90_cls.png",
+      "type": "image"
+    }
+  ]
+}

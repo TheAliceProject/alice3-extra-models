@@ -1,0 +1,207 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -5.315051E-7,
+          -2.822073,
+          -0.015034986
+        ],
+        "max": [
+          -1.2240199E-15,
+          5.80483E-9,
+          -0.005033592
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          -1.9859217,
+          -0.013404237,
+          -2.831976
+        ],
+        "max": [
+          2.0139947,
+          0.0132888695,
+          0.009937846
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          -1.9971337,
+          -0.0013637732,
+          -2.8313444
+        ],
+        "max": [
+          2.0028477,
+          0.011383384,
+          -2.8155425
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "bounds": {
+        "min": [
+          -2.00877,
+          0.003325615,
+          -2.83202
+        ],
+        "max": [
+          -1.994706,
+          0.013383261,
+          -0.009981559
+        ]
+      }
+    },
+    {
+      "name": "B3",
+      "bounds": {
+        "min": [
+          -2.005926,
+          -0.0072080586,
+          0.006688184
+        ],
+        "max": [
+          -2.0059152,
+          0.002791934,
+          0.0066892337
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -4.000001,
+      0.01500022,
+      -5.6441483
+    ],
+    "max": [
+      4.0000005,
+      0.025001144,
+      5.935446E-9
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RacetrackStraightShort",
+      "idToResourceMap": {
+        "0": "RacetrackStraightShort-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RacetrackStraightShort",
+      "structure": "RacetrackStraightShort",
+      "textureSet": "RacetrackStraightShort",
+      "icon": "RacetrackStraightShort.png"
+    }
+  ],
+  "description": {
+    "name": "RacetrackStraightShort",
+    "icon": "RacetrackStraightShort_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T19:14:35-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RacetrackStraightShort",
+      "format": "a3r",
+      "file": "racetrackstraightshort.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RacetrackStraightShort-textureReference",
+      "format": "a3t",
+      "file": "racetrackstraightshort.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "499e88ad-0632-409f-baa1-08f0b3b77eb4",
+      "height": 83.0,
+      "width": 160.0,
+      "name": "RacetrackStraightShort.png",
+      "format": "image/png",
+      "file": "RacetrackStraightShort.png",
+      "type": "image"
+    },
+    {
+      "uuid": "2a40405d-7fe5-4fbf-8593-ef4dcc30bbb2",
+      "height": 83.0,
+      "width": 160.0,
+      "name": "RacetrackStraightShort_cls.png",
+      "format": "image/png",
+      "file": "RacetrackStraightShort_cls.png",
+      "type": "image"
+    }
+  ]
+}

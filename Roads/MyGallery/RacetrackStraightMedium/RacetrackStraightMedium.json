@@ -1,0 +1,232 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -5.0010016E-7,
+          -2.8220735,
+          -0.015034989
+        ],
+        "max": [
+          -1.2240199E-15,
+          5.80483E-9,
+          -0.005033592
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          -1.9859217,
+          -0.013404237,
+          -2.8319767
+        ],
+        "max": [
+          2.0139947,
+          0.013288872,
+          0.009937846
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          -1.9971336,
+          -0.0013637725,
+          -2.8313444
+        ],
+        "max": [
+          2.0028477,
+          0.011383383,
+          -2.815542
+        ]
+      }
+    },
+    {
+      "name": "A3",
+      "bounds": {
+        "min": [
+          1.9991673,
+          -0.0027977824,
+          -2.8236766
+        ],
+        "max": [
+          1.9991783,
+          0.007202212,
+          -2.8236756
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "bounds": {
+        "min": [
+          -1.9583778,
+          0.0031746197,
+          -5.6539474
+        ],
+        "max": [
+          -1.9583361,
+          0.013174532,
+          -5.653946
+        ]
+      }
+    },
+    {
+      "name": "B2",
+      "bounds": {
+        "min": [
+          -1.9724239,
+          -0.011284884,
+          0.006456259
+        ],
+        "max": [
+          -1.9612427,
+          -0.0012493307,
+          2.828509
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -4.0000005,
+      0.015000222,
+      -8.466221
+    ],
+    "max": [
+      4.0000005,
+      0.025001606,
+      2.4438316E-9
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RacetrackStraightMedium",
+      "idToResourceMap": {
+        "0": "RacetrackStraightMedium-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RacetrackStraightMedium",
+      "structure": "RacetrackStraightMedium",
+      "textureSet": "RacetrackStraightMedium",
+      "icon": "RacetrackStraightMedium.png"
+    }
+  ],
+  "description": {
+    "name": "RacetrackStraightMedium",
+    "icon": "RacetrackStraightMedium_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T19:14:25-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RacetrackStraightMedium",
+      "format": "a3r",
+      "file": "racetrackstraightmedium.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RacetrackStraightMedium-textureReference",
+      "format": "a3t",
+      "file": "racetrackstraightmedium.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "085887e4-810d-4496-873e-82ed0411ff03",
+      "height": 99.0,
+      "width": 160.0,
+      "name": "RacetrackStraightMedium.png",
+      "format": "image/png",
+      "file": "RacetrackStraightMedium.png",
+      "type": "image"
+    },
+    {
+      "uuid": "a2a061c3-d05b-4e24-a1e2-422cdca87378",
+      "height": 99.0,
+      "width": 160.0,
+      "name": "RacetrackStraightMedium_cls.png",
+      "format": "image/png",
+      "file": "RacetrackStraightMedium_cls.png",
+      "type": "image"
+    }
+  ]
+}

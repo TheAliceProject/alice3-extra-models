@@ -1,0 +1,177 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -10.00922,
+          -13.99999,
+          -0.004999999
+        ],
+        "max": [
+          3.9907799,
+          -2.9842387E-17,
+          0.0049999994
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A5",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A6",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A7",
+      "parent": "A6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A7",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -10.00922,
+      0.0050000004,
+      -13.99999
+    ],
+    "max": [
+      3.9907799,
+      0.0150022805,
+      2.4438147E-9
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RacetrackTurnLeft90",
+      "idToResourceMap": {
+        "0": "RacetrackTurnLeft90-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RacetrackTurnLeft90",
+      "structure": "RacetrackTurnLeft90",
+      "textureSet": "RacetrackTurnLeft90",
+      "icon": "RacetrackTurnLeft90.png"
+    }
+  ],
+  "description": {
+    "name": "RacetrackTurnLeft90",
+    "icon": "RacetrackTurnLeft90_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T19:12:50-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RacetrackTurnLeft90",
+      "format": "a3r",
+      "file": "racetrackturnleft90.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RacetrackTurnLeft90-textureReference",
+      "format": "a3t",
+      "file": "racetrackturnleft90.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "4910baf0-bd62-4c31-93d1-bec1563a720e",
+      "height": 55.0,
+      "width": 160.0,
+      "name": "RacetrackTurnLeft90.png",
+      "format": "image/png",
+      "file": "RacetrackTurnLeft90.png",
+      "type": "image"
+    },
+    {
+      "uuid": "0903c75a-072d-4d6a-a88d-49cab5c192a7",
+      "height": 55.0,
+      "width": 160.0,
+      "name": "RacetrackTurnLeft90_cls.png",
+      "format": "image/png",
+      "file": "RacetrackTurnLeft90_cls.png",
+      "type": "image"
+    }
+  ]
+}

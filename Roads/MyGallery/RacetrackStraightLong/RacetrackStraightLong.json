@@ -1,0 +1,327 @@
+{
+  "parentClass": "Prop",
+  "rootJoints": [
+    "root"
+  ],
+  "jointBounds": [
+    {
+      "name": "root",
+      "bounds": {
+        "min": [
+          -3.85176E-7,
+          -2.8220732,
+          -0.015034986
+        ],
+        "max": [
+          -1.2240199E-15,
+          5.80483E-9,
+          -0.005033592
+        ]
+      }
+    },
+    {
+      "name": "A1",
+      "bounds": {
+        "min": [
+          -1.9859216,
+          -0.013404237,
+          -2.8319762
+        ],
+        "max": [
+          2.0139947,
+          0.013288869,
+          0.009937846
+        ]
+      }
+    },
+    {
+      "name": "A2",
+      "bounds": {
+        "min": [
+          -1.9971336,
+          -0.0013637783,
+          -2.8313444
+        ],
+        "max": [
+          2.0028477,
+          0.011383383,
+          -2.8155408
+        ]
+      }
+    },
+    {
+      "name": "A3",
+      "bounds": {
+        "min": [
+          1.9991671,
+          -0.0027977834,
+          -2.823676
+        ],
+        "max": [
+          1.9991778,
+          0.0072022113,
+          -2.8236744
+        ]
+      }
+    },
+    {
+      "name": "A4",
+      "bounds": {
+        "min": [
+          1.9637614,
+          0.005388766,
+          -5.656909
+        ],
+        "max": [
+          1.9814733,
+          0.015482123,
+          -2.83488
+        ]
+      }
+    },
+    {
+      "name": "A5",
+      "bounds": {
+        "min": [
+          1.9990774,
+          -0.015614116,
+          -2.8091633
+        ],
+        "max": [
+          1.9991313,
+          -0.005614254,
+          -2.8091607
+        ]
+      }
+    },
+    {
+      "name": "nextTrackPiece",
+      "bounds": {
+        "min": [
+          -4.0000105,
+          0.00323031,
+          0.0030289032
+        ],
+        "max": [
+          0.0012370432,
+          0.01499994,
+          2.8251088
+        ]
+      }
+    },
+    {
+      "name": "B1",
+      "bounds": {
+        "min": [
+          -1.9558573,
+          -0.0035275945,
+          -14.120188
+        ],
+        "max": [
+          2.044099,
+          0.013165589,
+          -11.278269
+        ]
+      }
+    },
+    {
+      "name": "B2",
+      "bounds": {
+        "min": [
+          -2.0202472,
+          -0.0114374645,
+          -5.653345
+        ],
+        "max": [
+          1.9797014,
+          0.011309655,
+          -5.637543
+        ]
+      }
+    },
+    {
+      "name": "B3",
+      "bounds": {
+        "min": [
+          -2.0091128,
+          -0.007211784,
+          0.003620364
+        ],
+        "max": [
+          -2.0091023,
+          0.0027882084,
+          0.0036214106
+        ]
+      }
+    },
+    {
+      "name": "B4",
+      "bounds": {
+        "min": [
+          -1.9774259,
+          -0.015459351,
+          5.6562824
+        ],
+        "max": [
+          -1.9597119,
+          -0.0053659915,
+          8.478303
+        ]
+      }
+    }
+  ],
+  "additionalJoints": [
+    {
+      "name": "root",
+      "visibility": "COMPLETELY_HIDDEN"
+    },
+    {
+      "name": "A1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A2",
+      "parent": "A1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A3",
+      "parent": "A2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A4",
+      "parent": "A3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A5",
+      "parent": "A4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "A6",
+      "parent": "A5",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "nextTrackPiece",
+      "parent": "A6",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B1",
+      "parent": "root",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B2",
+      "parent": "B1",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B3",
+      "parent": "B2",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B4",
+      "parent": "B3",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B5",
+      "parent": "B4",
+      "visibility": "PRIME_TIME"
+    },
+    {
+      "name": "B6",
+      "parent": "B5",
+      "visibility": "PRIME_TIME"
+    }
+  ],
+  "additionalJointArrays": [],
+  "additionalJointArrayIds": [],
+  "poses": [],
+  "boundingBox": {
+    "min": [
+      -3.9999998,
+      0.015000215,
+      -14.1103735
+    ],
+    "max": [
+      4.000001,
+      0.02500253,
+      3.0866566E-8
+    ]
+  },
+  "placeOnGround": true,
+  "textureSets": [
+    {
+      "name": "RacetrackStraightLong",
+      "idToResourceMap": {
+        "0": "RacetrackStraightLong-textureReference"
+      }
+    }
+  ],
+  "models": [
+    {
+      "name": "RacetrackStraightLong",
+      "structure": "RacetrackStraightLong",
+      "textureSet": "RacetrackStraightLong",
+      "icon": "RacetrackStraightLong.png"
+    }
+  ],
+  "description": {
+    "name": "RacetrackStraightLong",
+    "icon": "RacetrackStraightLong_cls.png",
+    "tags": [],
+    "groupTags": [],
+    "themeTags": []
+  },
+  "provenance": {
+    "aliceVersion": "3.6.1.0-alpha+build.local",
+    "created": "2022-02-24T19:14:17-0500EST",
+    "creator": "xinhe"
+  },
+  "metadata": {
+    "formatVersion": "0.1",
+    "identifier": {
+      "version": "1.0"
+    }
+  },
+  "prerequisites": [],
+  "resources": [
+    {
+      "name": "RacetrackStraightLong",
+      "format": "a3r",
+      "file": "racetrackstraightlong.a3r",
+      "type": "skeletonMesh"
+    },
+    {
+      "name": "RacetrackStraightLong-textureReference",
+      "format": "a3t",
+      "file": "racetrackstraightlong.a3t",
+      "type": "aliceTexture"
+    },
+    {
+      "uuid": "50397c54-3441-46e2-a6c7-c3e551bac07f",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "RacetrackStraightLong.png",
+      "format": "image/png",
+      "file": "RacetrackStraightLong.png",
+      "type": "image"
+    },
+    {
+      "uuid": "ed2b4854-cd03-4f33-9f9f-f39cc575474e",
+      "height": 120.0,
+      "width": 149.0,
+      "name": "RacetrackStraightLong_cls.png",
+      "format": "image/png",
+      "file": "RacetrackStraightLong_cls.png",
+      "type": "image"
+    }
+  ]
+}
